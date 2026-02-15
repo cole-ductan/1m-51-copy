@@ -44,14 +44,14 @@
 
 | Location | Puzzle | Decode | Confidence |
 |----------|--------|--------|------------|
-| ACCRA | Vault door Scrabble (P1.1.5) | Scrabble tiles → "last Scrabble Championship" | Confirmed |
-| KABUL | Morse code light (P1.1.4) | Light flashes backwards = KABUL | Confirmed |
-| ARLES | Laser pattern (P1.1.2) | "LASER MIX UP" anagram | Confirmed |
-| KUPANG | Clipboard overlay (P1.1.3) | BTS checklist → "Capital of East Nusa Tenggara" | Confirmed |
-| LAHORE | Periodic dots overlap (P1.1.7) | Dot patterns → atomic numbers → periodic table | Confirmed |
-| LIMA | Belt wire colors (P1.3.1) | Color code 12-7-13-1 = L-I-M-A | Confirmed |
-| TASHKENT | Marked bills / Cash Pile (P1.1.1) | Red-rimmed bills → A1Z26 = "CASH TENT" | Probable |
-| TALLINN | Subtitles / transcript (P1.1.6) | Hyphens → "Seven Letter Big Lodge" → tall inn | Probable |
+| ACCRA | Vault door Scrabble | Scrabble tiles → "last Scrabble Championship" | Confirmed |
+| KABUL | Morse code light | Light flashes backwards = KABUL | Confirmed |
+| ARLES | Laser pattern | "LASER MIX UP" anagram | Confirmed |
+| KUPANG | Clipboard overlay | BTS checklist → "Capital of East Nusa Tenggara" | Confirmed |
+| LAHORE | Periodic dots overlap | Dot patterns → atomic numbers → periodic table | Confirmed |
+| LIMA | Belt wire colors | Color code 12-7-13-1 = L-I-M-A | Confirmed |
+| TASHKENT | Marked bills / Cash Pile | Red-rimmed bills → A1Z26 = "CASH TENT" | Probable |
+| TALLINN | Subtitles / transcript | Hyphens → "Seven Letter Big Lodge" → tall inn | Probable |
 
 ---
 
@@ -84,16 +84,16 @@
 
 | # | Location | Recipient | Puzzle | Decode | Confidence |
 |---|----------|-----------|--------|--------|------------|
-| 1 | DIVO | Jack McKenna | Card trick (P1.4.8) | Celebrity gift decode | Confirmed |
-| 2 | BUFFALO | Botez Sisters | Chess (P1.4.10) | Game 6 cipher | Confirmed |
-| 3 | TIERRA DEL FUEGO | Quackity | (P1.4.4) | Beagle Channel clue | Confirmed |
-| 4 | DEKALB | Hayleybaylee | Rings (P1.4.5) | Gift puzzle decode | Confirmed |
-| 5 | WICHITA or BROOKLYN or NEW YORK | Jimmy Fallon | Jigsaw (P1.4.3) | "JIMMYS BIRTHPLACE" — which Jimmy? MrBeast=Wichita, Fallon=Brooklyn/NYC | Disputed |
-| 6 | QUEENSLAND | Chris Hemsworth | (P1.4.7) | "LAND OF CAIRNS" → Queensland | Probable |
-| 7 | TAMPA BAY | Sketch | (P1.4.2) | "Angry Lair" → "Mad Den" → Madden 99 years → A1Z26 → BUCS HOME → Tampa Bay | Probable |
-| 8 | COPENHAGEN | Pierson | (P1.4.9) | Blender food combos → missing letters spell HAFNIUM CITY → Latin for Copenhagen | Confirmed |
-| 9 | LA FORTUNA? | Airrack (P1.4.6?) | 7 pictures, each word ends in "-ion". Stock filenames may be clues. La Fortuna, Costa Rica  | Unconfirmed |
-| 10 | ??? | Jim & Monika (P1.4.1?) | Heart hoodie: 8 hearts replace O's in AFFECTION, JOINING, PASSION, TOGETHER, ADORING, EUPHORIA, JOY, IN LOVE | Unsolved |
+| 1 | DIVO | Jack McKenna | Card trick | Celebrity gift decode | Confirmed |
+| 2 | BUFFALO | Botez Sisters | Chess game | Game 6 cipher | Confirmed |
+| 3 | TIERRA DEL FUEGO | Quackity | Sword with text | Beagle Channel clue | Confirmed |
+| 4 | DEKALB | Hayleybaylee | Rings | Gift puzzle decode | Confirmed |
+| 5 | WICHITA or BROOKLYN or NEW YORK | Jimmy Fallon | Jigsaw puzzle | "JIMMYS BIRTHPLACE" — which Jimmy? MrBeast=Wichita, Fallon=Brooklyn/NYC | Disputed |
+| 6 | QUEENSLAND | Chris Hemsworth | Interstate mapping | "LAND OF CAIRNS" → Queensland | Probable |
+| 7 | TAMPA BAY | Sketch | Football cards | "Angry Lair" → "Mad Den" → Madden 99 years → A1Z26 → BUCS HOME → Tampa Bay | Probable |
+| 8 | COPENHAGEN | Pierson | Blender recipe | Blender food combos → missing letters spell HAFNIUM CITY → Latin for Copenhagen | Confirmed |
+| 9 | LA FORTUNA? | Airrack | 7 pictures | Each word ends in "-ion". Stock filenames may be clues. La Fortuna, Costa Rica | Unconfirmed |
+| 10 | ??? | Jim & Monika | Heart hoodie | 8 hearts replace O's in AFFECTION, JOINING, PASSION, TOGETHER, ADORING, EUPHORIA, JOY, IN LOVE | Unsolved |
 
 ---
 
@@ -132,7 +132,7 @@
 | # | Location | Source | Decode | Confidence |
 |---|----------|--------|--------|------------|
 | 1 | CASABLANCA | Slack messages puzzle | Emoji spelling 🎠🦕🌼⚓🏕️ → CA-SA-BL-AN-CA + chess connection | Confirmed |
-| 2 | ??? | Salesforce Instagram story (Feb 14) | Shows different monitor screen arrangement | Unsolved |
+| 2 | ??? | Salesforce Instagram story (Feb 14) | Shows different monitor screen arrangement (beardsoft screenshot IMG_7197) | Unsolved |
 | 3 | ??? | Salesforce Twitter/X post (Feb 11) | | Unsolved |
 | 4 | ??? | Salesforce Twitter/X post (Feb 14) | | Unsolved |
 | 5 | ??? | SlackHQ Instagram | | Unsolved |
