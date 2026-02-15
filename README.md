@@ -180,7 +180,7 @@
 
 ---
 
-*Last updated: Feb 15, 2026 ~9:00 PM UTC*
+*Last updated: Feb 15, 2026 ~1:00 PM PT*
 
 ---
 
