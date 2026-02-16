@@ -4,6 +4,7 @@
 - [51 Locations — Summary](all.md) — One-table overview of all 51 slots
 - [1,000+ Sudoku Puzzles](https://delfinadap.github.io/onemil-sudoku/) — Collected from onemil.xyz with fingerprint mappings
 - [Sudoku / onemil.xyz Intel](sudoku.md) — How the sudoku puzzle system works
+- [Community Groups](communities.md) — Discord, Slack, and Reddit groups
 
 ---
 
