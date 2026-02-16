@@ -13,3 +13,7 @@ What we can deduct from this:
 - It corresponds to the pdfIndex of 271828, which is roughly Euler's number * 10^5
 
 \*A new session with a unique browser fingerprint
+
+---
+
+(Originally posted on [discord.gg/PeArHATD](https://discord.gg/PeArHATD))
