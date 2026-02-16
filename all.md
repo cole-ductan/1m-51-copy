@@ -36,7 +36,7 @@
 | 30 | Gift | COPENHAGEN | Pierson — Blender recipe | Confirmed |
 | 31 | Gift | ALGIERS | Airrack — 7 pictures (ERIC hidden) | Confirmed |
 | 32 | Gift | ??? | Jim & Monika — Heart hoodie | Unsolved |
-| 33 | Gift Unifier | ??? | Sudoku on onemil.xyz (Hint #7) | Unsolved |
+| 33 | Gift Unifier | ??? | Unknown — not the Sudoku (Sudoku is Screen 10) | Unsolved |
 | 34 | YT Short | ??? | Mirror mirror on the wall | Unsolved |
 | 35 | YT Short | ??? | Chocolate heart | Unsolved |
 | 36 | Salesforce | CASABLANCA | Slack messages emoji puzzle | Confirmed |
@@ -52,7 +52,9 @@
 | 46 | Lone Shark | ILE DE LA POSSESSION | Podcast / Hello Puzzlers | Confirmed |
 | 47 | Lone Shark | BASEL? | BoardGameGeek acrostic (contested) | Unconfirmed |
 | 48 | Crossword | EYJAFJALLAJOKULL | 16 circled cells anagram | Confirmed |
-| 49–51 | Various | ??? | 3 more locations needed | Unknown |
+| 49 | Commercial | ??? | Smoke grenade (BeastBot confirmed) | Unsolved |
+| 50 | Commercial | RIYADH? | Camel/Llama (BeastBot confirmed, "BEASTLAND" = Saudi Arabia) | Unconfirmed |
+| 51 | Commercial | ??? | Unsolved commercial puzzle | Unsolved |
 
 ---
 

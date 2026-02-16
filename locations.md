@@ -103,11 +103,11 @@
 
 *"The 1 puzzle that unites them."*
 
-*Hint #7 (Feb 15) confirms this is the Sudoku on onemil.xyz. "You need friends for this puzzle. Maybe a million of them." Euler puzzle #271829 is universal. Wordoku theory is unconfirmed — likely refers to Stage 0 CHALLENGE puzzle, not onemil.xyz.*
+*Previously attributed to the onemil.xyz Sudoku, but BeastBot explicitly links the Sudoku to Screen 10 ("This bank video puzzle goes with screen 10"), making it a Screen+Bank puzzle (Category 2). The Gift Unifier is a separate, unidentified puzzle that connects the 10 gift puzzles.*
 
 | # | Location | Puzzle | Decode | Confidence |
 |---|----------|--------|--------|------------|
-| 1 | ??? | Sudoku on onemil.xyz (Euler #271829) | Collaborative puzzle. Extraction method unknown. | Unsolved |
+| 1 | ??? | Unknown — not the Sudoku | Must connect the 10 gift recipients/locations somehow. No candidates identified. | Unsolved |
 
 ---
 
