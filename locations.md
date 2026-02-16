@@ -2,9 +2,9 @@
 
 **Source:** Hint #6 (Feb 14) confirmed exactly 51 location-yielding puzzles across 9 categories.
 
-**Status:** 22 confirmed, 5 probable, 1 disputed, 2 unconfirmed = ~30 with answers, ~21 unknown.
+**Status:** 22 confirmed, 6 probable, 1 disputed, 2 unconfirmed = ~31 with answers, ~20 unknown.
 
-**Last updated:** Feb 16, 2026 ~6:43 AM PT
+**Last updated:** Feb 16, 2026 ~9:42 AM PT
 
 ---
 
@@ -95,7 +95,7 @@
 | 7 | TAMPA BAY | Sketch | Football cards | BUCS HOME → Tampa Bay | Probable |
 | 8 | COPENHAGEN | Pierson | Blender recipe | Blender food combos → HAFNIUM CITY → Latin for Copenhagen | Confirmed |
 | 9 | ALGIERS | Airrack | 7 pictures | Each picture hides "ERIC." First letters of subjects spell A-L-G-I-E-R-S / A-L-G-E-R-I-A | Confirmed |
-| 10 | ??? | Jim & Monika | Heart hoodie | 8 hearts replace O's in AFFECTION, JOINING, PASSION, TOGETHER, ADORING, EUPHORIA, JOY, IN LOVE | Unsolved |
+| 10 | VALENTINE, AZ? | Jim & Monika | Heart hoodie | Heart-binary method: hearts as 1/0 → decodes to "AZ." Valentine, Arizona is famous for its Valentine's Day postmark — fitting for a couple's gift. | Probable |
 
 ---
 
@@ -173,7 +173,7 @@
 | Playlist setup | 1 | 0 | 1 |
 | Screens + Bank (paired, 1 location each) | 12 | 7 | 5 |
 | Non-screen commercial | ~12 | 9 | ~3 |
-| Gifts | 10 | 8-9 | 1-2 |
+| Gifts | 10 | 9-10 | 0-1 |
 | Gift unifier | 1 | 0 | 1 |
 | YouTube shorts/TikTok | 2 | 0 | 2 |
 | Salesforce site/social | 9 | 1-2 | 7-8 |

@@ -1,6 +1,6 @@
 # 51 Locations — All in One
 
-**22 confirmed, 5 probable, 1 disputed, 2 unconfirmed, 21 unknown** | *Feb 16, 2026 ~6:43 AM PT*
+**22 confirmed, 6 probable, 1 disputed, 2 unconfirmed, 20 unknown** | *Feb 16, 2026 ~9:42 AM PT*
 
 | # | Category | Location | Puzzle | Confidence |
 |---|----------|----------|--------|------------|
@@ -35,7 +35,7 @@
 | 29 | Gift | TAMPA BAY | Sketch — Football cards | Probable |
 | 30 | Gift | COPENHAGEN | Pierson — Blender recipe | Confirmed |
 | 31 | Gift | ALGIERS | Airrack — 7 pictures (ERIC hidden) | Confirmed |
-| 32 | Gift | ??? | Jim & Monika — Heart hoodie | Unsolved |
+| 32 | Gift | VALENTINE, AZ? | Jim & Monika — Heart-binary → "AZ" → Valentine, Arizona | Probable |
 | 33 | Gift Unifier | ??? | Unknown — not the Sudoku (Sudoku is Screen 10) | Unsolved |
 | 34 | YT Short | ??? | Mirror mirror on the wall | Unsolved |
 | 35 | YT Short | ??? | Chocolate heart | Unsolved |
