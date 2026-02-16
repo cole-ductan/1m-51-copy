@@ -2,7 +2,7 @@
 
 **Active groups solving the MrBeast Million Dollar Puzzle**
 
-| Community | Platform | Link |
+| Community | Platform | Join |
 |---|---|---|
 | Serious MrBeast Scavenger Hunters | Discord | [discord.gg/PeArHATD](https://discord.gg/PeArHATD) |
 | Lone Shark Games | Discord | [discord.com/invite/nB6STgE5xb](https://discord.com/invite/nB6STgE5xb) |
