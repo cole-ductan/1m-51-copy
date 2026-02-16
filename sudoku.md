@@ -18,7 +18,6 @@ The mechanism seems to be:
 What we can deduct from this:
 - 271829.pdf is the one we should be looking at the most, most likely.
 - It corresponds to the pdfIndex of 271828, which is roughly Euler's number * 10^5
-- The existence of PDFs above 271,829 is notable but their significance is unclear — they may be part of a later stage or simply pre-generated padding.
 
 \*A new session with a unique browser fingerprint
 
