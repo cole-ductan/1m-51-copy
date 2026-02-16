@@ -2,9 +2,9 @@
 
 **Source:** Hint #6 (Feb 14) confirmed exactly 51 location-yielding puzzles across 9 categories.
 
-**Status:** 21 confirmed, 5 probable, 1 disputed, 3 unconfirmed = ~30 with answers, ~21 unknown.
+**Status:** 22 confirmed, 5 probable, 1 disputed, 2 unconfirmed = ~30 with answers, ~21 unknown.
 
-**Last updated:** Feb 16, 2026 ~6:34 AM PT
+**Last updated:** Feb 16, 2026 ~6:43 AM PT
 
 ---
 
@@ -142,7 +142,7 @@
 
 ---
 
-## Category 8: Lone Shark Socials (2 of 3)
+## Category 8: Lone Shark Socials (3 of 3) ✅
 
 *"The 3 puzzles on Lone Shark's socials."*
 
@@ -152,7 +152,7 @@
 |---|----------|----------|------|--------|------------|
 | 1 | HEARD ISLAND | Bluesky (Feb 14) | Shark post with misspellings | Homophones indexed by word lengths → HEARD ISLAND | Confirmed |
 | 2 | ILE DE LA POSSESSION | Podcast / Hello Puzzlers | Letters extracted | "ISASEEDSESLIAOPNO" anagrams to ILE DE LA POSSESSION (Crozet Archipelago) | Confirmed |
-| 3 | BASEL? | Facebook / BoardGameGeek | Games list + acrostic | "lords base at the Spanish apocrypha" → Basel. Contested — doesn't use underlined letters. Also Euler's birthplace. | Unconfirmed |
+| 3 | ASCENSION ISLAND | Facebook / BoardGameGeek | Games list with rankings | Last digit of each BGG ranking → index into title/description → acrostic. "Ascension" is a card game in the list. Text references "climbing" + "rising." All 3 answers are remote islands. Solved by formerlycharles + The Knick Knack (Feb 16). | Confirmed |
 
 ---
 
@@ -177,7 +177,7 @@
 | Gift unifier | 1 | 0 | 1 |
 | YouTube shorts/TikTok | 2 | 0 | 2 |
 | Salesforce site/social | 9 | 1-2 | 7-8 |
-| Lone Shark socials | 3 | 2-3 | 0-1 |
+| Lone Shark socials | 3 | 3 | 0 |
 | Crossword | 1 | 1 | 0 |
 | **TOTAL** | **51** | **~28-31** | **~20-23** |
 

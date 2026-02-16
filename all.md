@@ -1,6 +1,6 @@
 # 51 Locations — All in One
 
-**21 confirmed, 5 probable, 1 disputed, 3 unconfirmed, 19 unknown** | *Feb 16, 2026 ~6:34 AM PT*
+**22 confirmed, 5 probable, 1 disputed, 2 unconfirmed, 21 unknown** | *Feb 16, 2026 ~6:43 AM PT*
 
 | # | Category | Location | Puzzle | Confidence |
 |---|----------|----------|--------|------------|
@@ -50,7 +50,7 @@
 | 44 | Salesforce | CHICAGO? | BTS clocks | Unconfirmed |
 | 45 | Lone Shark | HEARD ISLAND | Bluesky homophones | Confirmed |
 | 46 | Lone Shark | ILE DE LA POSSESSION | Podcast / Hello Puzzlers | Confirmed |
-| 47 | Lone Shark | BASEL? | BoardGameGeek acrostic (contested) | Unconfirmed |
+| 47 | Lone Shark | ASCENSION ISLAND | BoardGameGeek — "Ascension" card game + "climbing"/"rising" | Confirmed |
 | 48 | Crossword | EYJAFJALLAJOKULL | 16 circled cells anagram | Confirmed |
 | 49 | Commercial | ??? | Smoke grenade (BeastBot confirmed) | Unsolved |
 | 50 | Commercial | RIYADH? | Camel/Llama (BeastBot confirmed, "BEASTLAND" = Saudi Arabia) | Unconfirmed |
