@@ -1,7 +1,7 @@
 # 51 Locations — Master Tracker
 
 **Source:** Hint #6 (Feb 14) confirmed exactly 51 location-yielding puzzles across 9 categories.
-**Status:** 21 confirmed, 6 probable, 1 disputed, 3 unconfirmed = ~31 with answers, ~20 unknown.
+**Status:** 21 confirmed, 5 probable, 1 disputed, 3 unconfirmed = ~30 with answers, ~21 unknown.
 
 ---
 
@@ -100,11 +100,11 @@
 
 *"The 1 puzzle that unites them."*
 
-*Hint #7 (Feb 15) confirms this is the Sudoku on onemil.xyz. "You need friends for this puzzle. Maybe a million of them." Euler puzzle #271829 is universal. Wordoku theory: convert numbers to letters.*
+*Hint #7 (Feb 15) confirms this is the Sudoku on onemil.xyz. "You need friends for this puzzle. Maybe a million of them." Euler puzzle #271829 is universal. Wordoku theory is unconfirmed — likely refers to Stage 0 CHALLENGE puzzle, not onemil.xyz.*
 
 | # | Location | Puzzle | Decode | Confidence |
 |---|----------|--------|--------|------------|
-| 1 | ??? | Sudoku on onemil.xyz (Euler #271829) | Collaborative puzzle. Wordoku conversion needed. | Unsolved |
+| 1 | ??? | Sudoku on onemil.xyz (Euler #271829) | Collaborative puzzle. Extraction method unknown. | Unsolved |
 
 ---
 
@@ -180,7 +180,7 @@
 
 ---
 
-*Last updated: Feb 15, 2026 ~1:00 PM PT*
+*Last updated: Feb 16, 2026 ~11:00 PM PT*
 
 ---
 
