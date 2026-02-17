@@ -2,19 +2,19 @@
 
 **Source:** Hint #6 (Feb 14) confirmed exactly 51 location-yielding puzzles across 9 categories.
 
-**Status:** 22 confirmed, 6 probable, 1 disputed, 2 unconfirmed = ~31 with answers, ~20 unknown.
+**Status:** 22 confirmed, 8 probable, 1 disputed, 2 unconfirmed = ~33 with answers, ~18 unknown.
 
-**Last updated:** Feb 16, 2026 ~9:42 AM PT
+**Last updated:** Feb 17, 2026 ~1:00 AM PT
 
 ---
 
-## Category 1: Playlist Setup Puzzle (0 of 1)
+## Category 1: Playlist Setup Puzzle (1 of 1)
 
 *"The 1 puzzle that sets up the playlist."*
 
 | # | Location | Puzzle | Decode | Confidence |
 |---|----------|--------|--------|------------|
-| 1 | ??? | Unknown | W4ffle: "Only thing I can think is the QR code has more to it?" | Unsolved |
+| 1 | MAPUTO? | Playlist setup puzzle | First letters of each word spell MAPUTO (Maputo, Mozambique) | Probable |
 
 ---
 
@@ -122,7 +122,7 @@
 
 ---
 
-## Category 7: Salesforce Site/Social (1 of 9)
+## Category 7: Salesforce Site/Social (2 of 9)
 
 *"The 9 puzzles you'll find on this site or social posts from Salesforce properties."*
 
@@ -136,7 +136,7 @@
 | 4 | ??? | Salesforce Twitter/X post (Feb 14) | | Unsolved |
 | 5 | ??? | SlackHQ Instagram | | Unsolved |
 | 6 | ??? | Instagram reel (Feb 13) | Changed screen arrangement, spider morphing | Unsolved |
-| 7 | ??? | Slack messages / Malcolm bolded | "Malcolm" bolded in bank video Slack msg | Unsolved |
+| 7 | YELLOWKNIFE? | "Puzzle Maker" (BTS video) | "Find a puzzle maker" flashing numbers in BTS video. Team Omega P1.3.7 — marked solved. Decode method not public yet. | Probable |
 | 8 | ??? | Salesforce YouTube / BTS videos | Elephant ate "$673"/5673. 12+ BTS videos unanalyzed. | Unsolved |
 | 9 | CHICAGO? | BTS clocks | BTS clocks show London, New York, Chicago, Tokyo | Unconfirmed |
 
@@ -170,16 +170,16 @@
 
 | Category | Total | Found | Missing |
 |----------|-------|-------|---------|
-| Playlist setup | 1 | 0 | 1 |
+| Playlist setup | 1 | 1 | 0 |
 | Screens + Bank (paired, 1 location each) | 12 | 7 | 5 |
 | Non-screen commercial | ~12 | 9 | ~3 |
 | Gifts | 10 | 9-10 | 0-1 |
 | Gift unifier | 1 | 0 | 1 |
 | YouTube shorts/TikTok | 2 | 0 | 2 |
-| Salesforce site/social | 9 | 1-2 | 7-8 |
+| Salesforce site/social | 9 | 2-3 | 6-7 |
 | Lone Shark socials | 3 | 3 | 0 |
 | Crossword | 1 | 1 | 0 |
-| **TOTAL** | **51** | **~28-31** | **~20-23** |
+| **TOTAL** | **51** | **~30-33** | **~18-21** |
 
 ---
 
