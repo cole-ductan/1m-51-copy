@@ -2,9 +2,9 @@
 
 **Source:** Hint #6 (Feb 14) confirmed exactly 51 location-yielding puzzles across 9 categories.
 
-**Status:** 22 confirmed, 10 probable, 1 disputed, 3 unconfirmed = **36 with answers, 15 unknown**.
+**Status:** 25 confirmed, 9 probable, 0 disputed, 3 unconfirmed = **37 with answers, 14 unknown**.
 
-**Last updated:** Feb 17, 2026 ~02:00 AM PT
+**Last updated:** Feb 17, 2026 ~11:00 AM PT
 
 ---
 
@@ -90,8 +90,8 @@
 | 2 | BUFFALO | Botez Sisters | Chess game | Game 6 cipher | Confirmed |
 | 3 | TIERRA DEL FUEGO | Quackity | Sword with text | Beagle Channel clue | Confirmed |
 | 4 | DEKALB | Hayleybaylee | Rings | Gift puzzle decode | Confirmed |
-| 5 | WICHITA? or BROOKLYN? | Jimmy Fallon | Jigsaw puzzle | "JIMMYS BIRTHPLACE" — MrBeast=Wichita, Fallon=Brooklyn/NYC | Disputed |
-| 6 | QUEENSLAND | Chris Hemsworth | Interstate mapping | "LAND OF CAIRNS" → Queensland | Probable |
+| 5 | NEW YORK CITY | Jimmy Fallon | Jigsaw puzzle | "JIMMYS BIRTHPLACE" = Fallon's birthplace (Team Omega confirmed) | Confirmed |
+| 6 | CAIRNS, QUEENSLAND | Chris Hemsworth | Interstate mapping | "LAND OF CAIRNS" → Queensland (Team Omega confirmed) | Confirmed |
 | 7 | TAMPA BAY | Sketch | Football cards | BUCS HOME → Tampa Bay | Probable |
 | 8 | COPENHAGEN | Pierson | Blender recipe | Blender food combos → HAFNIUM CITY → Latin for Copenhagen | Confirmed |
 | 9 | ALGIERS | Airrack | 7 pictures | Each picture hides "ERIC." First letters of subjects spell A-L-G-I-E-R-S / A-L-G-E-R-I-A | Confirmed |
@@ -131,7 +131,7 @@
 | # | Location | Puzzle | Source | BeastBot? | Decode | Confidence |
 |---|----------|--------|--------|-----------|--------|------------|
 | 1 | CASABLANCA | Slack emoji | Slack messages | YES | 🎠🦕🌼⚓🏕️ → CA-SA-BL-AN-CA | Confirmed |
-| 2 | YELLOWKNIFE? | Puzzle Maker | BTS video | Unknown | Flashing numbers. Team Omega P1.3.7, marked solved. | Probable |
+| 2 | YELLOWKNIFE | Puzzle Maker | BTS video | Unknown | Flashing numbers. Team Omega confirmed (⬤). | Confirmed |
 | 3 | ??? | **Cow** | YouTube Short ("Mirror Mirror") | YES | Cow walks door A→a carrying red key. Tag "40576." | Unsolved |
 | 4 | ??? | **Bear (Codey)** | YouTube Short + Salesforce branding | YES | Salesforce bear mascot. Holds "HECK" sign. In BTS Studio C. | Unsolved |
 | 5 | ??? | **Malcolm in Water** | Slack (bolded) + BTS water tank | Likely | MALCOLM as Vigenere key → "CONGRATULATIONS YOU ARE ON THE RIGHT TRACK KEEP DECODING" | Unsolved |

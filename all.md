@@ -1,6 +1,6 @@
 # 51 Locations — All in One
 
-**22 confirmed, 10 probable, 1 disputed, 3 unconfirmed = 36 with answers, 15 unknown** | *Feb 17, 2026 ~02:00 AM PT*
+**25 confirmed, 9 probable, 0 disputed, 3 unconfirmed = 37 with answers, 14 unknown** | *Feb 17, 2026 ~11:00 AM PT*
 
 | # | Category | Location | Puzzle | Confidence |
 |---|----------|----------|--------|------------|
@@ -30,8 +30,8 @@
 | 24 | Gift | BUFFALO | Botez Sisters — Chess game | Confirmed |
 | 25 | Gift | TIERRA DEL FUEGO | Quackity — Sword with text | Confirmed |
 | 26 | Gift | DEKALB | Hayleybaylee — Rings | Confirmed |
-| 27 | Gift | WICHITA? or BROOKLYN? | Jimmy Fallon — Jigsaw puzzle | Disputed |
-| 28 | Gift | QUEENSLAND | Chris Hemsworth — Interstate mapping | Probable |
+| 27 | Gift | NEW YORK CITY | Jimmy Fallon — "JIMMYS BIRTHPLACE" = Fallon's birthplace | Confirmed |
+| 28 | Gift | CAIRNS, QUEENSLAND | Chris Hemsworth — "LAND OF CAIRNS" | Confirmed |
 | 29 | Gift | TAMPA BAY | Sketch — Football cards | Probable |
 | 30 | Gift | COPENHAGEN | Pierson — Blender recipe | Confirmed |
 | 31 | Gift | ALGIERS | Airrack — 7 pictures (ERIC hidden) | Confirmed |
@@ -45,7 +45,7 @@
 | 39 | Salesforce | ??? | **Malcolm in Water** — Bolded in Slack. Vigenere cipher → "congratulations keep decoding." | Unsolved |
 | 40 | Salesforce | ??? | **Flamethrower** — BTS page, flickering pieces → number sequence. | Unsolved |
 | 41 | Salesforce | MENTONE, AL? | **E Mon Billboard** — "EMON" underlined on Lone Shark billboard. EMON+T=MENTONE theory. | Unconfirmed |
-| 42 | Salesforce | YELLOWKNIFE? | **Puzzle Maker** — BTS video flashing numbers | Probable |
+| 42 | Salesforce | YELLOWKNIFE | **Puzzle Maker** — BTS video (Team Omega confirmed) | Confirmed |
 | 43 | Salesforce | ??? | **FAQ** — mrbeast.salesforce.com/faq. BeastBot: "FAQs are necessarily a puzzle." Naval signals. | Unsolved |
 | 44 | Salesforce | ??? | **Lock** — Verify Lock on site, numbers don't follow normal padlock. Almost unexplored. | Unsolved |
 | 45 | Lone Shark | HEARD ISLAND | Bluesky homophones | Confirmed |
