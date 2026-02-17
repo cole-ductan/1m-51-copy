@@ -4,7 +4,7 @@
 
 **Hint 8:** "Take your 50 locations and your crossword to Beast Travel and go on many a wild vacation!"
 
-**Status:** 7 confirmed, 1 probable (Oil City) | *Feb 16, 2026 ~7:22 PM PT*
+**Status:** 7 confirmed, 1 probable | *Feb 16, 2026 ~7:22 PM PT*
 
 ---
 
@@ -23,7 +23,7 @@
 
 | Page | Tagline | Destination | Caption | Solve | Image | Status |
 |------|---------|-------------|---------|-------|-------|--------|
-| Car | "To get here you can ride our free bus / Or hire a car to get each…" | BARODYNAMICS | "Join us at" | OIL CITY, PA? | pggz_UN4.png | Probable |
+| Car | "To get here you can ride our free bus / Or hire a car to get each…" | BARODYNAMICS | "Join us at" | OIL CITY? | pggz_UN4.png | Probable |
 | Car | | EBULLIOSCOPE | "See lovely" | MOSCOW | gsFk8tO8.png | Confirmed |
 | Car | | FURFURACEOUS | "Meet us at" | DAR ES SALAAM | wh2q0_Kk.png | Confirmed |
 | Horse | "We've got these places in our triptych / We think you'll love them, 'cause they're…" | ABERUNCATORS | "Vacation at" | OKATO, New Zealand | jU18fVUA.png | Confirmed |
