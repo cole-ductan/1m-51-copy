@@ -4,7 +4,7 @@
 
 **Hint 8:** "Take your 50 locations and your crossword to Beast Travel and go on many a wild vacation!"
 
-**Status:** 6 confirmed, 2 probable | *Feb 16, 2026 ~7:22 PM PT*
+**Status:** 9 confirmed, 4 probable | *Feb 18, 2026 ~12:30 AM PT*
 
 ---
 
@@ -25,12 +25,17 @@
 |------|---------|-------------|---------|-------|-------|--------|
 | Car | "To get here you can ride our free bus / Or hire a car to get each…" | BARODYNAMICS | "Join us at" | OIL CITY? | pggz_UN4.png | Probable |
 | Car | | EBULLIOSCOPE | "See lovely" | ARZAMAS, Russia? (~33 churches in image; Arzamas = "city of 33 churches") | gsFk8tO8.png | Probable |
-| Car | | FURFURACEOUS | "Meet us at" | DAR ES SALAAM | wh2q0_Kk.png | Confirmed |
+| Car | | FURFURACEOUS | "Meet us at" | DAR ES SALAAM? (Omega: hint says "not its translation" — may be wrong) | wh2q0_Kk.png | Disputed |
+| Car | | HAPAXANTHOUS | "You'll like" | BAKU, Azerbaijan ("City of Winds" rebus) | NEW | Probable |
+| Car | | HEKISTOTHERM | "Get down to" | WINNIPEG, Canada ("Capital" + "Jets/Plains" rebus; coldest major city fits word) | NEW | Probable |
 | Horse | "We've got these places in our triptych / We think you'll love them, 'cause they're…" | ABERUNCATORS | "Vacation at" | OKATO, New Zealand | jU18fVUA.png | Confirmed |
 | Horse | | DEAMBULATORY | "Find us in" | NOVA RUSSAS, Brazil | 2IEfeT_Q.png | Confirmed |
+| Horse | | FISSICOSTATE | "Have fun at" | ČESKÉ BUDĚJOVICE, Czechia (cryptic → W3W: towers.decoder.models) | NEW | Confirmed |
 | Plane | "To find these spots will be no stressor / If you think like a…" | ABOUTSLEDGES | "See you at" | AMBANJA, Madagascar | 4k79IT5U.png | Confirmed |
 | Plane | | ABSQUATULATE | "Such fun at" | SAINT-PIERRE, SPM | o3fj1w4.png | Confirmed |
 | Plane | | ECTYPOGRAPHY | "Come visit" | KRASNODAR, Russia | gO6cSCVw.png | Confirmed |
+| Plane | | ELEEMOSYNARY | "Chill at" | TUCUMÁN, Argentina (Mercedes Sosa Theater) | NEW | Confirmed |
+| Plane | | EPANOSTROPHE | "Be well at" | DERBY, Western Australia (Derby Wharf, Jetty Road) | NEW | Confirmed |
 
 ---
 
