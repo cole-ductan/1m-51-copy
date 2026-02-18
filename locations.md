@@ -1,109 +1,93 @@
-# 51 Locations — Master Tracker
+# 51 Locations — Community Tracker
 
 **Source:** Hint #6 (Feb 14) confirmed exactly 51 location-yielding puzzles across 9 categories.
 
-**Status:** 25 confirmed, 9 probable, 0 disputed, 3 unconfirmed = **37 with answers, 14 unknown**.
+**Status:** 23 confirmed, 9 probable, 3 unconfirmed = 35 with answers, ~16 unsolved.
 
-**Last updated:** Feb 17, 2026 ~11:00 AM PT
+**Last updated:** Feb 17, 2026 ~7:30 PM PT
+
+*Confidence tiers: Confirmed = clean decode + multiple sources. Probable = good evidence, community consensus. Unconfirmed = debated or speculative. Only promoted if decode method is documented.*
 
 ---
 
-## Category 1: Playlist Setup Puzzle (1 of 1)
+## Category 1: Playlist Setup (1 of 1)
 
 *"The 1 puzzle that sets up the playlist."*
 
 | # | Location | Puzzle | Decode | Confidence |
 |---|----------|--------|--------|------------|
-| 1 | MAPUTO? | Playlist setup puzzle | First letters of each word spell MAPUTO (Maputo, Mozambique) | Probable |
+| 1 | MAPUTO | Playlist setup puzzle | "**M**issing **A** **P**laylist? **U**se **T**his **O**ne:" — first letters spell MAPUTO (Maputo, Mozambique). Zero disputes across multiple servers. | Confirmed |
 
 ---
 
-## Category 2: Commercial Puzzles (? of 12)
+## Category 2: Screen + Bank Puzzles (9 of 12)
 
-*"The 12 puzzles contained entirely in Sunday's commercial."*
+*"The 12 puzzles contained entirely in Sunday's commercial" + "The 12 puzzles in the bank video. Each goes with one of the screens."*
 
-*These are the 12 screens in the computer lab scene of the Super Bowl ad (numbered left to right). Each pairs with one bank video puzzle (Category 3) via BeastBot.*
+*Each screen in the computer lab pairs with one bank video puzzle (via BeastBot). One location per screen/bank pair.*
 
-| Screen | Location | What's On Screen | Paired Bank Puzzle (BeastBot) | Decode | Confidence |
-|--------|----------|-----------------|-------------------------------|--------|------------|
-| 1 | **BENIN?** | Backwards J ("> J̅ > ? N") / cyanotype with scribble | Magazine (CEO Benioff) | "Mark BENI off" = scribble out BENI from BENIOFF. Backwards-J = **recade** (Benin national symbol). BeastBot: "sometimes you just have to sound it out" + "Look at what is removed on the line about Mark and Jimmy." | Unconfirmed |
-| 2 | ??? | Trench coat cut into pieces | Calendar (dates on desk) | | Unsolved |
-| 3 | CAIRO | Candyland rebus (Can+Dylan+D) | Feastables shirt | Candyland color indexing on Feastables merch hoodie slogan → CAIRO | Confirmed |
-| 4 | ??? | Sine wave | Withdrawal slip | Routing 650283979, account 5480234354, dated Feb 5. Sine → Sign language theory. | Unsolved |
-| 5 | **ANKARA?** | Spider + Ballerina (arabesque) | Parking ticket + "No Parking Your Tank at the Bank" signs | BeastBot hint: "what words have in common." ARABESQUE+ARACHNID share **ARA**. TANK+BANK share **ANK**. ARA+ANK = **ANKARA**. Only theory matching the hint. (Alt: Taranto via tarantella, weaker.) | Probable |
-| 6 | TBILISI | Bird on wire | Coffee cup / bird toy | "Georgia" = the country (Tbilisi), not US state (Macon). Bird looking 8 directions + coffee cup. | Confirmed |
-| 7 | **CEBU?** | Ear with T crossed out (5 blanks) | IPESIT plate / "Talk Like a Pirate Day" sign | IPESIT → anagram STEP II → SEP 2 → remove T sound → say aloud → **"CEBU"** (Philippines). Only theory using all 4 elements (plate, pirate, ear, T-removal). (Alt: IPESI, Nigeria — simpler but ignores pirate sign.) | Probable |
-| 8 | TIJUANA | Caesar busts (L/R sequence) | "Best Bank" poster | Caesar cipher → poster decode | Confirmed |
-| 9 | ??? | Image carousel (swing, witch, elephant, swan pediment, sword, Swiss flag, sweater) | Crosswalk symbols | All words start with **SW** — confirmed by Lone Shark (underlined S+W). Portmanteau: swing+witch=SWITCH, elephant+pediment=ELEMENT → instruction for crosswalk manipulation. Crosswalk mirrors to "DICE." No location yet. | Unsolved |
-| 10 | ??? | 10⁵ (0 underlined) | Sudoku (onemil.xyz) | Case #271829 = e×10⁵. Hint #7 "MY BIO" acrostic → Euler's biography → Basel? "You need friends, maybe a million of them" = collaboration-gated. Genuinely unsolved. | Unsolved |
-| 11 | LINCOLN | Top hat on weight (22.493 lbs) | Penny jar | Phone confirms "Lincoln Nebraska" | Confirmed |
-| 12 | MOSCOW? | n³ = n² | Red Rubik's cube | Red + Cube = Red Square, Moscow | Probable |
+| Screen | Location | Screen Content | Bank Clue | Decode | Confidence |
+|--------|----------|---------------|-----------|--------|------------|
+| 1 | BENIN? | Backwards J ("> J̅ > ? N") | CEO Magazine (Benioff) | "Marc Benioff" = "mark BENI off" — scribbled section on screen is literally marking BENI off — visible N remains → BENIN. BeastBot hint: "read the magazine out loud" (phonetic). Backwards J and `>` signs unexplained. Multiple solvers converge independently. Country not city — could be Cotonou or Porto-Novo but no decode path to a specific city yet. | Unconfirmed |
+| 2 | ??? | Trench coat pieces | Calendar dates (Jan 1, Feb 2, Mar 1, Mar 3, Jun 1, Jul 1, Aug 1, Aug 6, Sep 1, Nov 5, Dec 7). BeastBot confirmed: "the banker isn't American" — dates are DD/MM not MM/DD. No circled day >12 so the flip works. BeastBot also says look at "underscored numbers." Sine wave "has something to do with the withdrawal slip." | DD/MM flip + underscored numbers suggest more extraction needed | Unsolved |
+| 3 | CAIRO | Can+Dylan+D rebus | Feastables shirt | Candyland color indexing on Feastables hoodie slogan → CAIRO. Community "certain." | Confirmed |
+| 4 | KOMI REPUBLIC? | Sine wave | Withdrawal slip (routing 650283979, acct 5480234354, Feb 5) | Coordinate theory: 65.0283979°N, 54.80234354°E → Komi Republic, Russia. Remote taiga, no city at exact point, but region-level answers exist in puzzle (cf. Tierra del Fuego, Queensland). | Probable |
+| 5 | **ANKARA** | Spider + Ballerina | Parking ticket #1268621-6 + "No Parking Your Tank at the Bank" signs | BeastBot hint: "look for what words have in common." Ballerina in **ARABESQUE** + spider = **ARACHNID** → shared = **ARA**. Signs say **TANK** at the **BANK** → shared = **ANK**. ARA+ANK = **ANKARA**. Only theory matching the BeastBot hint. Explains why ballerina is specifically in arabesque pose. | Confirmed |
+| 6 | **TBILISI?** | Bird on wire | Coffee cup / bird toy | Screen birds use **bird cipher** → spells **DINAMO**. Bank bird toy points to coffee cup showing "Macon Coffee" with **outline of Georgia** — Georgia the country, not US state. DINAMO + Georgia → **FC Dinamo Tbilisi** (Georgia's most famous soccer club). Two puzzle elements converge from multiple sources. Weakness: Dinamo Batumi is also Georgian. No BeastBot confirmation. | Probable |
+| 7 | **CEBU?** | Ear with T crossed out (5 blanks, T in pos 2 X'd) | IPESIT plate / "Talk Like a Pirate Day" sign | IPESIT → anagram → STEP II → Roman numeral → SEP 2 → remove T sound (ear+crossed T) → say aloud → **"CEBU"** (Philippines). Only theory using ALL 4 elements (plate, pirate sign, ear/audio, T-removal). BeastBot confirms both "License Plate" and "Pirate" trigger Screen 7. Phonetic leap debated ("Sep Two" → "Seh-boo"). | Probable |
+| 8 | TIJUANA | Caesar busts (1,7,7,1,1,4,2,7,6,5,3) | "Best Bank" poster | Caesar bust numbers play **Slack Boop Plus** ringtone → Slack message "Attention: Valued Customers" → points to celebrities poster with **"THE BEST BANK"** → Caesar cipher on "THE BEST BANK" = **"SALAD ORIGIN"** → origin of **Caesar salad** = **Tijuana, Mexico** (Caesar Cardini, 1924). Triple Caesar pun (busts→cipher→salad). Multiple independent solvers. | Confirmed |
+| 9 | ??? | Image carousel (swing, witch, elephant, swan pediment, sword, Swiss flag, sweater) | Crosswalk symbols (mirror to "DICE"?) | **Genuinely unsolved.** All carousel words start with **SW** — confirmed by Lone Shark Facebook post with underlined S+W. Portmanteau theory: swing+witch=SWITCH, elephant+pediment=ELEMENT → instruction to manipulate crosswalk. Progress bar goes up for 4 images, down for 3. No location extracted yet. | Unsolved |
+| 10 | **BASEL?** | 10⁵ (0 underlined) | Sudoku (onemil.xyz) | **Genuinely unsolved — likely collaboration-gated.** Case #271829 = e × 10⁵ (Euler's number). BeastBot: "likely a wordoku." Hint #7 hidden acrostic = "MY BIO" → Euler's biography → **BASEL, Switzerland** (birthplace, ~20%). Underlined 0 may change interpretation. Hint #7: "you need friends, maybe a million of them" = reaching puzzle #1,000,000 collectively? | Unsolved |
+| 11 | LINCOLN? | Top hat on weight (22.493 lbs) | Penny jar | 22.493 lbs of pennies ≈ $40.81 = latitude of Lincoln, Nebraska. Top hat = Abe Lincoln. But: penny math is approximate (22.493 lbs → 4089.6 pennies, not clean 4081). Multiple community members question whether the math is clean enough. | Probable |
+| 12 | MOSCOW? | n³ = n² | Red Rubik's cube | n=0 or n=1 (binary). Red + Cube = Red Square, Moscow. | Probable |
 
-**Note:** The commercial also contains non-screen puzzles (belt, morse light, vault door, laser, cash pile, clipboard, periodic dots, transcript, tank, etc.) — listed separately below.
+---
 
-### Non-Screen Commercial Puzzles
+## Category 3: Non-Screen Commercial Puzzles (9 of 12)
+
+*"The 12 puzzles contained entirely in Sunday's commercial." (Hint #6). Visual elements in the commercial that are NOT on the 12 lab screens. Exactly 12 per Hint #6.*
 
 | Location | Puzzle | Decode | Confidence |
 |----------|--------|--------|------------|
-| ACCRA | Vault door Scrabble | Scrabble tiles → "last Scrabble Championship" | Confirmed |
-| KABUL | Morse code light | Light flashes backwards = KABUL | Confirmed |
-| ARLES | Laser pattern | "LASER MIX UP" anagram | Confirmed |
-| KUPANG | Clipboard overlay | BTS checklist → "Capital of East Nusa Tenggara" | Confirmed |
-| LAHORE | Periodic dots overlap | Dot patterns → atomic numbers → periodic table | Confirmed |
+| ACCRA | Vault door Scrabble | Scrabble tile values → words → underlined letters → "He funded hospital in site of last Scrabble Championship" | Confirmed |
+| KABUL | Morse code light | Light flashes Morse code backwards = KABUL | Confirmed |
+| ARLES | Laser pattern | Laser sequence hitting holes spells "LASER MIX UP" → anagram → ARLES | Confirmed |
+| KUPANG | Clipboard overlay | Overlay BTS checklist with video frame → "Capital of East Nusa Tenggara" | Confirmed |
+| LAHORE | Periodic dots overlap | Two dot patterns overlaid → row lengths → atomic numbers → periodic table → LA HO RE PA K I S TA N | Confirmed |
 | LIMA | Belt wire colors | Color code 12-7-13-1 = L-I-M-A | Confirmed |
-| TASHKENT | Marked bills / Cash Pile | Red-rimmed bills → A1Z26 = "CASH TENT". BeastBot: "underscored numbers" involved. | Probable |
-| TALLINN | Subtitles / transcript | Hyphens → "Seven Letter Big Lodge" → tall inn | Confirmed |
+| TASHKENT? | Marked bills / Cash Pile | Red-rimmed bills sum → A1Z26 = "CASH TENT" → Tashkent. BeastBot: "numbers are underscored" — may be incomplete. | Probable |
+| TALLINN | Subtitles / transcript | Hyphens adjacent to letters spell "Seven Letter Big Lodge" → "big lodge" = "tall inn" = TALLINN | Confirmed |
 | NEW ORLEANS? | Tank numbers + "I scream" | Tank numbers match receipt from MrBeast "$100K Ice Cream" video. Ice cream type is from New Orleans. | Probable |
+| ??? | Smoke grenade | BeastBot confirms this is a puzzle. No solve yet. | Unsolved |
+| ??? | Camel/llama | BeastBot confirms, points to Saudi Arabia/BEASTLAND. No location extracted. | Unsolved |
+| ??? | *Unidentified* | 12th commercial puzzle not yet found. | Unsolved |
 
 ---
 
-## Category 3: Bank Video Puzzles (? of 12)
-
-*"The 12 puzzles in the bank video. Each goes with one of the screens in the commercial."*
-
-*Each bank puzzle pairs with one commercial screen (confirmed via BeastBot).*
-
-| Screen | Location | Bank Clue | BeastBot Keyword(s) | Paired Screen Content | Decode | Confidence |
-|--------|----------|-----------|---------------------|----------------------|--------|------------|
-| 1 | **BENIN?** | CEO magazine (Benioff) | "Magazine" | Backwards J / cyanotype | "Mark BENI off" → scribble BENI. Recade (Benin symbol) = backwards J. | Unconfirmed |
-| 2 | ??? | Calendar on Ms. Maybelle's desk | "Calendar", "Nameplate" | Trench coat pieces | Dates: Jan 1, Feb 2, Mar 1, Mar 3, Jun 1, Jul 1, Aug 1, Aug 6, Sep 1, Nov 5, Dec 7 | Unsolved |
-| 3 | CAIRO | Feastables shirt | "Feastables" | Candyland rebus | Candyland color indexing → Feastables merch slogan → CAIRO | Confirmed |
-| 4 | ??? | Savings withdrawal slip | "Withdrawal" | Sine wave | Routing 650283979, acct 5480234354, dated Feb 5. | Unsolved |
-| 5 | **ANKARA?** | Parking ticket + "No Parking Your Tank at Bank" signs | "Parking" | Spider (ARACHNID) + Ballerina (ARABESQUE) | "What words have in common": ARA+ANK=ANKARA | Probable |
-| 6 | TBILISI | Georgia coffee cup / bird toy | "Bird", "Coffee" | Bird on wire | "Georgia" = the country (Tbilisi), not US state | Confirmed |
-| 7 | **CEBU?** | IPESIT plate / pirate sign | "License Plate", "Pirate" | Ear with T crossed out | IPESIT→STEP II→SEP 2→remove T→say aloud→"Cebu" (Philippines) | Probable |
-| 8 | TIJUANA | "Best Bank" poster | "Poster" | Caesar busts | Caesar cipher → poster decode | Confirmed |
-| 9 | ??? | Strange crosswalk symbols | "Crosswalk" | Image carousel (all SW- words) | SW extraction + SWITCH ELEMENT portmanteau → instruction for crosswalk. Mirrors to "DICE." | Unsolved |
-| 10 | ??? | Sudoku puzzle (onemil.xyz) | "Sudoku" | 10⁵ (0 underlined) | Case #271829 = e×10⁵. "MY BIO" → Euler → Basel? Collaboration-gated. | Unsolved |
-| 11 | LINCOLN | Penny jar | "Penny" | Top hat on weight | Phone confirms "Lincoln Nebraska" | Confirmed |
-| 12 | MOSCOW? | Red Rubik's cube | "Rubik's Cube" | n³ = n² | Red + Cube = Red Square | Probable |
-
----
-
-## Category 4: Gift Puzzles (8 of 10)
+## Category 4: Gift Puzzles (10 of 10)
 
 *"The 10 gifts given out to our friends."*
 
-| # | Location | Recipient | Puzzle | Decode | Confidence |
-|---|----------|-----------|--------|--------|------------|
-| 1 | DIVO | Jack McKenna | Card trick | Celebrity gift decode | Confirmed |
-| 2 | BUFFALO | Botez Sisters | Chess game | Game 6 cipher | Confirmed |
-| 3 | TIERRA DEL FUEGO | Quackity | Sword with text | Beagle Channel clue | Confirmed |
-| 4 | DEKALB | Hayleybaylee | Rings | Gift puzzle decode | Confirmed |
-| 5 | NEW YORK CITY | Jimmy Fallon | Jigsaw puzzle | "JIMMYS BIRTHPLACE" = Fallon's birthplace (Team Omega confirmed) | Confirmed |
-| 6 | CAIRNS, QUEENSLAND | Chris Hemsworth | Interstate mapping | "LAND OF CAIRNS" → Queensland (Team Omega confirmed) | Confirmed |
-| 7 | TAMPA BAY | Sketch | Football cards | BUCS HOME → Tampa Bay | Probable |
-| 8 | COPENHAGEN | Pierson | Blender recipe | Blender food combos → HAFNIUM CITY → Latin for Copenhagen | Confirmed |
-| 9 | ALGIERS | Airrack | 7 pictures | Each picture hides "ERIC." First letters of subjects spell A-L-G-I-E-R-S / A-L-G-E-R-I-A | Confirmed |
-| 10 | VALENTINE, AZ? | Jim & Monika | Heart hoodie | Heart-binary method: hearts as 1/0 → decodes to "AZ." Valentine, Arizona is famous for its Valentine's Day postmark — fitting for a couple's gift. | Probable |
+| # | Location | Recipient | Decode | Confidence |
+|---|----------|-----------|--------|------------|
+| 1 | DIVO | Jack McKenna | Card trick → DIVO, Côte d'Ivoire | Confirmed |
+| 2 | BUFFALO | Botez Sisters | Chess Game 6 cipher → BUFFALO | Confirmed |
+| 3 | TIERRA DEL FUEGO | Quackity | Sword with text + Beagle Channel | Confirmed |
+| 4 | DEKALB | Hayleybaylee | Rings puzzle → DeKalb, Illinois | Confirmed |
+| 5 | NEW YORK CITY | Jimmy Fallon | Jigsaw → "JIMMYS BIRTHPLACE" — "Jimmy" = Fallon in his own gift video. Confirmed by multiple sources. | Confirmed |
+| 6 | CAIRNS, QUEENSLAND | Chris Hemsworth | "LAND OF CAIRNS" → Queensland. US 101 road signs + first letters. Confirmed by multiple sources. | Confirmed |
+| 7 | TAMPA BAY | Sketch | "Angry Lair" → "Mad Den" → Madden 99 → BUCS HOME → Tampa Bay. Competing with DUBAI (coordinates). | Probable |
+| 8 | COPENHAGEN | Pierson | Blender food combos → missing letters spell HAFNIUM CITY → Latin for Copenhagen | Confirmed |
+| 9 | ALGIERS | Airrack | 7 pictures each hide "ERIC." First letters: A-L-G-I-E-R-S / A-L-G-E-R-I-A | Confirmed |
+| 10 | VALENTINE, AZ? | Jim & Monika | Heart hoodie — 8 hearts replace O's in romantic words. Heart-binary method: hearts as 1/0 → decodes to "AZ." Valentine, Arizona is famous for its Valentine's Day postmark (fitting for a couple's gift). Novel theory from community Discord. Not seen in other communities. | Probable |
 
 ---
 
-## Category 5: Gift Unifier Puzzle (0 of 1)
+## Category 5: Gift Unifier (0 of 1)
 
 *"The 1 puzzle that unites them."*
 
-*Previously attributed to the onemil.xyz Sudoku, but BeastBot explicitly links the Sudoku to Screen 10 ("This bank video puzzle goes with screen 10"), making it a Screen+Bank puzzle (Category 2). The Gift Unifier is a separate, unidentified puzzle that connects the 10 gift puzzles.*
+*Previously attributed to the onemil.xyz Sudoku, but that's incorrect — BeastBot explicitly links the Sudoku to Screen 10 ("This bank video puzzle goes with screen 10"), making it a Screen+Bank puzzle (Category 2). The Gift Unifier is a separate, unidentified puzzle that somehow connects the 10 gift puzzles.*
 
 | # | Location | Puzzle | Decode | Confidence |
 |---|----------|--------|--------|------------|
@@ -111,48 +95,51 @@
 
 ---
 
-## Category 6: YouTube Shorts/TikTok (0 of 2)
+## Category 6: YouTube Shorts / TikTok (0 of 2)
 
-*"The 2 puzzles on YouTube shorts/TikTok that aren't related to the gifts."*
+*"The 2 puzzles on YouTube shorts that aren't related to the gifts." Hint #6 updated to include TikTok.*
 
-| # | Location | Video | Decode | Confidence |
-|---|----------|-------|--------|------------|
-| 1 | ??? | "Mirror mirror on the wall" short | Hallway video with doors, characters, movements. Cow with red key, basketball teams, bear with "HECK", 6 red butler doors at end. | Unsolved |
-| 2 | ??? | Chocolate heart short | MrBeast + Amaury Gaichon make giant chocolate heart. Connected to Jim/Monika gift (heart theme). | Unsolved |
+| # | Location | Video | Notes | Confidence |
+|---|----------|-------|-------|------------|
+| 1 | ??? | "Mirror mirror on the wall" (8_aIjKi0VLM) | Hallway with doors, characters. Cow with red key, basketball teams, bear with "HECK", 6 red butler doors at end. | Unsolved |
+| 2 | ??? | Chocolate heart (XbaZ45LVzzM) | MrBeast + Amaury Gaichon. Connected to Jim/Monika heart theme. TikTok version may differ from YouTube. | Unsolved |
 
 ---
 
-## Category 7: Salesforce Site/Social (2 of 9)
+## Category 7: Salesforce Site/Social (1–2 of 9)
 
 *"The 9 puzzles you'll find on this site or social posts from Salesforce properties."*
 
-*"This site" = mrbeast.salesforce.com. "Salesforce properties" = Salesforce, Slack, SlackHQ accounts. All 9 puzzle sources now identified (Feb 17), though most remain unsolved. Some overlap with Category 6 (YouTube Shorts).*
+*Biggest gap — nobody has systematically scraped Salesforce social accounts. Note: Some puzzles (cow, bear, flamethrower) appear in BOTH YouTube shorts AND the Salesforce/BTS site — category overlap unresolved.*
 
-| # | Location | Puzzle | Source | BeastBot? | Decode | Confidence |
-|---|----------|--------|--------|-----------|--------|------------|
-| 1 | CASABLANCA | Slack emoji | Slack messages | YES | 🎠🦕🌼⚓🏕️ → CA-SA-BL-AN-CA | Confirmed |
-| 2 | YELLOWKNIFE | Puzzle Maker | BTS video | Unknown | Flashing numbers. Team Omega confirmed (⬤). | Confirmed |
-| 3 | ??? | **Cow** | YouTube Short ("Mirror Mirror") | YES | Cow walks door A→a carrying red key. Tag "40576." | Unsolved |
-| 4 | ??? | **Bear (Codey)** | YouTube Short + Salesforce branding | YES | Salesforce bear mascot. Holds "HECK" sign. In BTS Studio C. | Unsolved |
-| 5 | ??? | **Malcolm in Water** | Slack (bolded) + BTS water tank | Likely | MALCOLM as Vigenere key → "CONGRATULATIONS YOU ARE ON THE RIGHT TRACK KEEP DECODING" | Unsolved |
-| 6 | ??? | **Flamethrower** | BTS page (flickering video) | YES | Number sequence: 11 6 2 12 4 7 8 13 7 3 13 11 8 9 7 12 1 11 9 4. Needs key to decode. | Unsolved |
-| 7 | MENTONE, AL? | **E Mon Billboard** | Lone Shark social post | YES | "EMON" underlined in "Where's the money." Part of pattern: YOUHU=SUDOKU, EMON=BILLBOARD, SW=POST 1. EMON+T=MENTONE theory. | Unconfirmed |
-| 8 | ??? | **FAQ** | mrbeast.salesforce.com/faq | YES ("FAQs are necessarily a puzzle") | References naval signals (flag semaphore?). Count FAQ entries per section. | Unsolved |
-| 9 | ??? | **Lock** | Salesforce site (Verify Lock UI) | Unknown | Numbers above/below start date. Don't follow normal padlock. Almost unexplored. | Unsolved |
+| # | Location | Puzzle Name | Source | BeastBot? | Notes | Confidence |
+|---|----------|------------|--------|-----------|-------|------------|
+| 1 | CASABLANCA | Slack emoji | Slack messages | YES | Emoji spelling → CA-SA-BL-AN-CA + chess connection | Confirmed |
+| 2 | YELLOWKNIFE | Puzzle Maker | BTS video | Unknown | Confirmed solved by multiple sources. | Confirmed |
+| 3 | CHICAGO? | BTS clocks | BTS video | Unknown | Four clocks: Tokyo, London, Chicago, New York. Chicago specific or just timezones? | Unconfirmed |
+| 4 | ??? | **Cow** | YouTube Short ("Mirror Mirror") + BeastBot | YES | Cow walks door A→a carrying red key around neck. Tag "40576." May overlap with Category 6 (Shorts). | Unsolved |
+| 5 | ??? | **Bear (Codey)** | YouTube Short + Salesforce branding | YES | Salesforce mascot Codey. Bear emerges door B→b holding sign "HECK" in red. In BTS Studio C. Japanese banners translate to "bear bear humanity." | Unsolved |
+| 6 | ??? | **Malcolm in Water** | Slack (bolded text) + BTS water tank | Likely | Malcolm bolded in Slack = keyword. Cipher using MALCOLM as Vigenère key yields "CONGRATULATIONS YOU ARE ON THE RIGHT TRACK KEEP DECODING AND YOU WILL FIND THE ANSWER." Connected to submarine on briefcase. | Unsolved |
+| 7 | ??? | **Flamethrower** | BTS page (flickering video) | YES | Flickering puzzle pieces encode number sequence: 11 6 2 12 4 7 8 13 7 3 13 11 8 9 7 12 1 11 9 4. Likely indexing/substitution cipher — needs key or reference text. | Unsolved |
+| 8 | MENTONE, AL? | **E Mon Billboard** | Lone Shark social post | YES | Billboard "Where's the money" with E-M-O-N underlined. EMON+T=MENTONE → Mentone, Alabama. Weak but only theory. | Unconfirmed |
+| 9 | ??? | **FAQ** | mrbeast.salesforce.com/faq | YES | FAQ page contains puzzle. References naval signals (flag semaphore?). Direct link shared by Lone Shark Shane. | Unsolved |
+| 10 | ??? | **Lock** | Salesforce site (Verify Lock UI) | Unknown | "Verify Lock" element with numbers above/below start date. Almost entirely unexplored. | Unsolved |
+| 11 | ??? | **Salesforce Tower** | Slack messages + BTS | Likely | Slack message about Salesforce Tower appears whenever magazine shown in BTS. Chicago tower "has a lot of 3s." Ohana floor mentioned. | Unsolved |
+| 12 | ??? | **Wanna Win a Million** | Unknown (Salesforce site?) | Unknown | Listed on community master trackers but zero substantive analysis. Likely banner/social post text. | Unsolved |
+
+*Note: 12 entries listed but only 9 are Salesforce puzzles per Hint #6. Some may overlap with other categories (cow/bear with Shorts) or some entries may not be Salesforce category. Exact mapping TBD.*
 
 ---
 
-## Category 8: Lone Shark Socials (3 of 3) ✅
+## Category 8: Lone Shark Socials (3 of 3)
 
-*"The 3 puzzles on Lone Shark's socials."*
+*"The 3 puzzles on Lone Shark's socials." Platforms: Facebook, Instagram, Threads, Bluesky.*
 
-*Socials: facebook.com/lonesharkgames, instagram.com/lonesharkgames, threads.com/@lonesharkgames, bsky.app/profile/lonesharkgames.bsky.social*
-
-| # | Location | Platform | Clue | Decode | Confidence |
-|---|----------|----------|------|--------|------------|
-| 1 | HEARD ISLAND | Bluesky (Feb 14) | Shark post with misspellings | Homophones indexed by word lengths → HEARD ISLAND | Confirmed |
-| 2 | ILE DE LA POSSESSION | Podcast / Hello Puzzlers | Letters extracted | "ISASEEDSESLIAOPNO" anagrams to ILE DE LA POSSESSION (Crozet Archipelago) | Confirmed |
-| 3 | ASCENSION ISLAND | Facebook / BoardGameGeek | Games list with rankings | Last digit of each BGG ranking → index into title/description → acrostic. "Ascension" is a card game in the list. Text references "climbing" + "rising." All 3 answers are remote islands. Solved by formerlycharles + The Knick Knack (Feb 16). | Confirmed |
+| # | Location | Platform | Decode | Confidence |
+|---|----------|----------|--------|------------|
+| 1 | HEARD ISLAND | Bluesky | Homophones indexed by word lengths → HEARD ISLAND. | Confirmed |
+| 2 | ILE DE LA POSSESSION | Podcast (Hello Puzzlers) | "ISASEEDSESLIAOPNO" anagrams to ILE DE LA POSSESSION. | Confirmed |
+| 3 | ASCENSION ISLAND | Facebook / BoardGameGeek | Last digit of each BGG ranking → index into title/description → acrostic. "Ascension" is also a card game name in the list. Text references "climbing" + "rising" (= ascending). All 3 Lone Shark answers are remote islands. | Confirmed |
 
 ---
 
@@ -162,7 +149,7 @@
 
 | # | Location | Decode | Confidence |
 |---|----------|--------|------------|
-| 1 | EYJAFJALLAJOKULL | 16 circled cells anagram | Confirmed |
+| 1 | EYJAFJALLAJOKULL | 16 circled cells anagram. 1A = ICELAND supports it. | Confirmed |
 
 ---
 
@@ -171,19 +158,108 @@
 | Category | Total | Found | Missing |
 |----------|-------|-------|---------|
 | Playlist setup | 1 | 1 | 0 |
-| Screens + Bank (paired, 1 location each) | 12 | 10 | 2 (Screens 2, 9) |
-| Non-screen commercial | ~12 | 9 | ~3 |
-| Gifts | 10 | 9-10 | 0-1 |
+| Screen + Bank (paired) | 12 | 9 | 3 (Screens 2, 9, 10) |
+| Non-screen commercial | 12 | 9 | 3 (smoke grenade, camel/llama, 1 unidentified) |
+| Gifts | 10 | 10 | 0 |
 | Gift unifier | 1 | 0 | 1 |
 | YouTube shorts/TikTok | 2 | 0 | 2 |
-| Salesforce site/social | 9 | 2 | 7 (all 9 puzzles now identified) |
+| Salesforce site/social | 9 | 2-4 | 5-7 (puzzles identified but mostly unsolved) |
 | Lone Shark socials | 3 | 3 | 0 |
 | Crossword | 1 | 1 | 0 |
-| **TOTAL** | **51** | **~36** | **~15** |
+| **TOTAL** | **51** | **~35** | **~16** |
 
 ---
 
+## Unconfirmed Location Candidates (not assigned to a category slot)
+
+| Location | Notes |
+|----------|-------|
+| DUBAI | Sketch gift alternative — coordinates 25°18'N, 55°18'E. Competing with Tampa Bay. |
+| BASEL | Screen 10 (Sudoku/Euler) candidate. Euler's birthplace. "MY BIO" hidden acrostic in Hint #7 supports this. ~20% confidence. |
+| RIYADH | Camel/Llama (commercial) — BeastBot confirmed as puzzle. "BEASTLAND" background = Saudi Arabia. |
+| OKHA | Elephant named "Okha." Town in Gujarat. Twitter ELEPHANT85673 had encoded messages. |
+| TARANTO | Spider+Ballerina (Screen 5 alt) — Tarantella etymology. Superseded by ANKARA. |
+
+*Dead candidates removed: EXETER, NIAGARA FALLS, BUSEWO, LA PAZ, LONDON/TOKYO, SAN FRANCISCO.*
 
 ---
 
-**Feedback? Let us know on our Discord:** [discord.gg/PeArHATD](https://discord.gg/PeArHATD)
+## Key Hints Reference
+
+### Hint #7 (Feb 15)
+> One clue tells you to inquire with Slackbot about a specific kind of number puzzle.
+> If you do that in a Puzzle Card, you'll get a place to look.
+> But you'll always get the same one.
+> You need friends for this puzzle.
+> Maybe a million of them.
+
+- "MY BIO" acrostic (first letters bottom-to-top).
+- MrBeast YouTube bio says "I counted to 100k" → sudoku #100,000 may be key.
+
+### Hint #8 (Feb 16)
+> Take your 50 locations and your crossword to Beast Travel and go on many a wild vacation!
+> The world is at your fingertips!
+> Adventure is out there!
+>
+> If you're ready to check in, then your endgame is near.
+
+### Hint #9 (Feb 17)
+> Speaking of the number 9, we said there were 9 puzzles on this site or social posts from Salesforce properties.
+> These are not connected to the commercials or these hints. They're in these places:
+> 4 are in Behind the Scenes videos. 2 of those are underwater. 1 is in pieces. 1 never forgets.
+> 3 are on large physical objects. You can see them on Salesforce's X feed. 1 may take a while to watch.
+> 2 are on this site. 1 is in a helpful video. The other follows our advice.
+> If you haven't found those, find those.
+
+**Hint #9 mapping to puzzles:**
+- 2 underwater → Malcolm in tank + Submarine Math (BTS video 3m17s)
+- 1 in pieces → Puzzle Maker (→ YELLOWKNIFE, solved)
+- 1 never forgets → Elephant 85673
+- 3 large physical objects on Salesforce X → billboards/signs
+- 1 helpful video → "How?" video = Dot-Dollar puzzle
+- 1 follows advice → FAQ page (BeastBot confirmed)
+
+---
+
+## beast.travel (Stage 2 Site)
+
+**URL:** https://beast.travel/ — confirmed Lone Shark Games production.
+
+**Structure:** 3 trip categories (Car, Horse, Plane) with 13 destination names. Each page has: tagline (cryptic clue indicator), Lords of Vegas game piece carousel (6 colors), and destination cards with puzzle images.
+
+| Page | Destination | Caption | Solve | Status |
+|------|-------------|---------|-------|--------|
+| Car | BARODYNAMICS | "Join us at" | **CASPER, Wyoming?** — "Oil City" is Casper's nickname. Rebus: OIL CAN+SICK-K+TEA = OIL CITY. | Probable |
+| Car | EBULLIOSCOPE | "See lovely" | **ARZAMAS, Russia** — image shows ~33 churches; Arzamas = "city of 33 churches." | Probable |
+| Car | FURFURACEOUS | "Meet us at" | **DAR ES SALAAM?** — "home of peace." Disputed — Hint 9 says "not its translation." | Disputed |
+| Car | HAPAXANTHOUS | "You'll like" | **BAKU, Azerbaijan** — rebus: "city" + "winds" = "City of Winds" = Baku. | Probable |
+| Car | HEKISTOTHERM | "Get down to" | **WINNIPEG, Canada** — rebus capital + jets/plains. Capital of Manitoba, Winnipeg Jets, coldest major city. | Probable |
+| Horse | ABERUNCATORS | "Vacation at" | **OKATO, New Zealand** | Confirmed |
+| Horse | DEAMBULATORY | "Find us in" | **NOVA RUSSAS, Brazil** — cryptic breakdown → W3W coordinates. | Confirmed |
+| Horse | FISSICOSTATE | "Have fun at" | **CESKE BUDEJOVICE, Czechia** — cryptic → W3W. | Confirmed |
+| Plane | ABOUTSLEDGES | "See you at" | **AMBANJA, Madagascar** — GeoGuessr confirmed via Otiv Mandroso bank. | Confirmed |
+| Plane | ABSQUATULATE | "Such fun at" | **SAINT-PIERRE, SPM** — image matched to lighthouse, exact Maps location found. | Confirmed |
+| Plane | ECTYPOGRAPHY | "Come visit" | **KRASNODAR, Russia** — image shows Krasnodar street with Russian signs. | Confirmed |
+| Plane | ELEEMOSYNARY | "Chill at" | **TUCUMAN, Argentina** — Mercedes Sosa Theater. | Confirmed |
+| Plane | EPANOSTROPHE | "Be well at" | **DERBY, Western Australia** — Derby Wharf on Jetty Road. | Confirmed |
+
+**Extraction method:** Taglines are cryptic clue indicators. Cryptic clues solve to words → **what3words (W3W) addresses** → locations.
+
+**IATA Airport Code Grid (43/49 valid — statistically significant):** Each 12-letter word splits into four 3-letter groups. 88% are valid IATA codes (vs. 54% base rate). Almost certainly intentional. 6 invalid codes (ECT, YPO, OPE, PHE, FIS, NTH) may be the extraction layer.
+
+**Photo puzzles (separate layer):** Car photo puzzle → **REGINA** (Saskatchewan, Canada). Horse/Plane photo puzzles unsolved.
+
+---
+
+## Observations
+
+- All confirmed answers are **city/place/region names** — not countries
+- ~12 puzzles completely unsolved with no location candidate
+- Calendar dates from teller's desk (Screen 2) are an unsolved data set — DD/MM confirmed
+- Hint #6 confirms all Stage 1 clues are now out — 60 puzzles total
+- 50-character submission limit confirmed (physical UI cap), but debate over whether answer is exactly 50 chars
+- BeastBot is now retroactively replying on old puzzle cards with new clues (significant shift)
+
+---
+
+**Questions? Join the community Discord:** [discord.gg/PeArHATD](https://discord.gg/PeArHATD)

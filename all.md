@@ -1,60 +1,63 @@
 # 51 Locations — All in One
 
-**25 confirmed, 9 probable, 0 disputed, 3 unconfirmed = 37 with answers, 14 unknown** | *Feb 17, 2026 ~11:00 AM PT*
+**23 confirmed, 9 probable, 3 unconfirmed = 35 with answers, ~16 unknown** | *Feb 17, 2026 ~7:30 PM PT*
 
 | # | Category | Location | Puzzle | Confidence |
 |---|----------|----------|--------|------------|
-| 1 | Playlist | MAPUTO? | First letters spell MAPUTO (Mozambique) | Probable |
-| 2 | Screen 1 + Bank | **BENIN?** | "Mark BENI off" = scribble BENI from BENIOFF. Backwards-J = recade (Benin national symbol). BeastBot: "sound it out" + "what is removed." | Unconfirmed |
-| 3 | Screen 2 + Bank | ??? | Trench coat + Calendar | Unsolved |
-| 4 | Screen 3 + Bank | CAIRO | Candyland rebus + Feastables shirt | Confirmed |
-| 5 | Screen 4 + Bank | ??? | Sine wave + Withdrawal slip | Unsolved |
-| 6 | Screen 5 + Bank | **ANKARA?** | Spider (ARACHNID) + Ballerina (ARABESQUE) → shared=ARA. Tank/Bank signs → shared=ANK. ARA+ANK=ANKARA. Matches BeastBot hint "what words have in common." | Probable |
-| 7 | Screen 6 + Bank | TBILISI | Bird on wire + Coffee cup | Confirmed |
+| 1 | Playlist | MAPUTO | First letters of "Missing A Playlist? Use This One:" spell MAPUTO (Mozambique). Zero disputes. | Confirmed |
+| 2 | Screen 1 + Bank | **BENIN?** | "Mark BENI off" = scribble BENI from BENIOFF. Backwards-J = recade (Benin national symbol). BeastBot: "sound it out" + "what is removed." Country not city — could be Cotonou or Porto-Novo. | Unconfirmed |
+| 3 | Screen 2 + Bank | ??? | Trench coat + Calendar. **BeastBot confirmed: "the banker isn't American"** — dates are DD/MM not MM/DD. BeastBot also says look at "underscored numbers." Sine wave "has something to do with the withdrawal slip." | Unsolved |
+| 4 | Screen 3 + Bank | CAIRO | Candyland rebus + Feastables shirt. Candyland color indexing → CAIRO. | Confirmed |
+| 5 | Screen 4 + Bank | **KOMI REPUBLIC?** | Sine wave + Withdrawal slip. Routing 650283979, acct 5480234354 → coordinates 65.0283979°N, 54.80234354°E → Komi Republic, Russia. | Probable |
+| 6 | Screen 5 + Bank | **ANKARA** | Spider (ARACHNID) + Ballerina (ARABESQUE) → shared=ARA. Tank/Bank signs → shared=ANK. ARA+ANK=ANKARA. BeastBot guided: "look for what words have in common." | Confirmed |
+| 7 | Screen 6 + Bank | **TBILISI?** | Bird cipher → DINAMO. Coffee cup shows Georgia outline. DINAMO + Georgia → FC Dinamo Tbilisi. Multiple independent solvers. Weakness: Dinamo Batumi also Georgian. | Probable |
 | 8 | Screen 7 + Bank | **CEBU?** | IPESIT→STEP II→SEP 2→remove T sound→say aloud→"Cebu." Only theory using all 4 elements (plate, pirate, ear, T-removal). | Probable |
-| 9 | Screen 8 + Bank | TIJUANA | Caesar busts + Best Bank poster | Confirmed |
+| 9 | Screen 8 + Bank | TIJUANA | Caesar busts → Slack Boop Plus ringtone → "Valued Customers" → "THE BEST BANK" poster → Caesar cipher → "SALAD ORIGIN" → Caesar salad origin = Tijuana, Mexico. Triple Caesar pun. | Confirmed |
 | 10 | Screen 9 + Bank | ??? | All images start with SW (confirmed by Lone Shark underlined S+W). SWITCH ELEMENT portmanteau → instruction for crosswalk. Genuinely unsolved. | Unsolved |
 | 11 | Screen 10 + Bank | ??? | 10⁵ + Sudoku. Case #271829 = e×10⁵. "MY BIO" acrostic → Euler → Basel? Likely collaboration-gated. Genuinely unsolved. | Unsolved |
-| 12 | Screen 11 + Bank | LINCOLN | Top hat/weight + Penny jar | Confirmed |
-| 13 | Screen 12 + Bank | MOSCOW? | n³=n² + Red Rubik's cube | Probable |
-| 14 | Commercial | ACCRA | Vault door Scrabble | Confirmed |
-| 15 | Commercial | KABUL | Morse code light | Confirmed |
-| 16 | Commercial | ARLES | Laser pattern | Confirmed |
-| 17 | Commercial | KUPANG | Clipboard overlay | Confirmed |
-| 18 | Commercial | LAHORE | Periodic dots overlap | Confirmed |
-| 19 | Commercial | LIMA | Belt wire colors | Confirmed |
-| 20 | Commercial | TASHKENT | Marked bills / Cash Pile | Probable |
-| 21 | Commercial | TALLINN | Subtitles / transcript | Confirmed |
-| 22 | Commercial | NEW ORLEANS? | Tank numbers + "I scream" / ice cream video | Probable |
-| 23 | Gift | DIVO | Jack McKenna — Card trick | Confirmed |
-| 24 | Gift | BUFFALO | Botez Sisters — Chess game | Confirmed |
-| 25 | Gift | TIERRA DEL FUEGO | Quackity — Sword with text | Confirmed |
-| 26 | Gift | DEKALB | Hayleybaylee — Rings | Confirmed |
-| 27 | Gift | NEW YORK CITY | Jimmy Fallon — "JIMMYS BIRTHPLACE" = Fallon's birthplace | Confirmed |
-| 28 | Gift | CAIRNS, QUEENSLAND | Chris Hemsworth — "LAND OF CAIRNS" | Confirmed |
-| 29 | Gift | TAMPA BAY | Sketch — Football cards | Probable |
-| 30 | Gift | COPENHAGEN | Pierson — Blender recipe | Confirmed |
-| 31 | Gift | ALGIERS | Airrack — 7 pictures (ERIC hidden) | Confirmed |
-| 32 | Gift | VALENTINE, AZ? | Jim & Monika — Heart-binary → "AZ" → Valentine, Arizona | Probable |
-| 33 | Gift Unifier | ??? | Unknown — not the Sudoku (Sudoku is Screen 10) | Unsolved |
-| 34 | YT Short | ??? | Mirror mirror on the wall | Unsolved |
-| 35 | YT Short | ??? | Chocolate heart | Unsolved |
-| 36 | Salesforce | CASABLANCA | Slack messages emoji puzzle | Confirmed |
-| 37 | Salesforce | ??? | **Cow** — YouTube Short, red key door A→a. BeastBot confirmed. | Unsolved |
-| 38 | Salesforce | ??? | **Bear (Codey)** — Salesforce mascot, holds "HECK" sign. BeastBot confirmed. | Unsolved |
-| 39 | Salesforce | ??? | **Malcolm in Water** — Bolded in Slack. Vigenere cipher → "congratulations keep decoding." | Unsolved |
-| 40 | Salesforce | ??? | **Flamethrower** — BTS page, flickering pieces → number sequence. | Unsolved |
-| 41 | Salesforce | MENTONE, AL? | **E Mon Billboard** — "EMON" underlined on Lone Shark billboard. EMON+T=MENTONE theory. | Unconfirmed |
-| 42 | Salesforce | YELLOWKNIFE | **Puzzle Maker** — BTS video (Team Omega confirmed) | Confirmed |
-| 43 | Salesforce | ??? | **FAQ** — mrbeast.salesforce.com/faq. BeastBot: "FAQs are necessarily a puzzle." Naval signals. | Unsolved |
-| 44 | Salesforce | ??? | **Lock** — Verify Lock on site, numbers don't follow normal padlock. Almost unexplored. | Unsolved |
-| 45 | Lone Shark | HEARD ISLAND | Bluesky homophones | Confirmed |
-| 46 | Lone Shark | ILE DE LA POSSESSION | Podcast / Hello Puzzlers | Confirmed |
-| 47 | Lone Shark | ASCENSION ISLAND | BoardGameGeek — "Ascension" card game + "climbing"/"rising" | Confirmed |
-| 48 | Commercial | ??? | Smoke grenade (BeastBot confirmed) | Unsolved |
-| 49 | Commercial | RIYADH? | Camel/Llama (BeastBot confirmed, "BEASTLAND" = Saudi Arabia) | Unconfirmed |
-| 50 | Commercial | ??? | Unsolved commercial puzzle | Unsolved |
-| 51 | Crossword | EYJAFJALLAJOKULL | 16 circled cells anagram | Confirmed |
+| 12 | Screen 11 + Bank | **LINCOLN?** | Top hat/weight (22.493 lbs) + Penny jar. Penny math is approximate (≈$40.89, not clean $40.81). Top hat = Abe Lincoln. | Probable |
+| 13 | Screen 12 + Bank | **MOSCOW?** | n³=n² + Red Rubik's cube. Cube=Square → Red Square → Moscow. | Probable |
+| 14 | Commercial | ACCRA | Vault door Scrabble tiles → "last Scrabble Championship" site | Confirmed |
+| 15 | Commercial | KABUL | Morse code light flashes backwards = KABUL | Confirmed |
+| 16 | Commercial | ARLES | Laser pattern "LASER MIX UP" anagram | Confirmed |
+| 17 | Commercial | KUPANG | Clipboard overlay → "Capital of East Nusa Tenggara" | Confirmed |
+| 18 | Commercial | LAHORE | Periodic dots overlap → atomic numbers → periodic table → LA HO RE | Confirmed |
+| 19 | Commercial | LIMA | Belt wire colors 12-7-13-1 = L-I-M-A | Confirmed |
+| 20 | Commercial | **TASHKENT?** | Marked bills → A1Z26 = "CASH TENT." BeastBot: "underscored numbers" — may be incomplete. | Probable |
+| 21 | Commercial | TALLINN | Subtitles hyphens → "Seven Letter Big Lodge" → tall inn | Confirmed |
+| 22 | Commercial | **NEW ORLEANS?** | Tank numbers + "I scream" / ice cream video | Probable |
+| 23 | Commercial | ??? | Smoke grenade (BeastBot confirmed puzzle) | Unsolved |
+| 24 | Commercial | ??? | Camel/Llama (BeastBot confirmed, "BEASTLAND" = Saudi Arabia) | Unsolved |
+| 25 | Commercial | ??? | 12th commercial puzzle — not yet identified | Unsolved |
+| 26 | Gift | DIVO | Jack McKenna — Card trick → Divo, Côte d'Ivoire | Confirmed |
+| 27 | Gift | BUFFALO | Botez Sisters — Chess Game 6 cipher | Confirmed |
+| 28 | Gift | TIERRA DEL FUEGO | Quackity — Sword with text + Beagle Channel | Confirmed |
+| 29 | Gift | DEKALB | Hayleybaylee — Rings → DeKalb, Illinois | Confirmed |
+| 30 | Gift | NEW YORK CITY | Jimmy Fallon — "JIMMYS BIRTHPLACE" = Fallon's birthplace (multiple teams confirmed) | Confirmed |
+| 31 | Gift | CAIRNS, QUEENSLAND | Chris Hemsworth — "LAND OF CAIRNS" → Queensland (multiple teams confirmed) | Confirmed |
+| 32 | Gift | **TAMPA BAY?** | Sketch — "THE ANGRY LAIR" = Mad Den = Madden → Madden 99 club → BUCS HOME → Tampa Bay | Probable |
+| 33 | Gift | COPENHAGEN | Pierson — Blender food combos → HAFNIUM CITY → Latin for Copenhagen | Confirmed |
+| 34 | Gift | ALGIERS | Airrack — 7 pictures each hide "ERIC." First letters spell A-L-G-I-E-R-S | Confirmed |
+| 35 | Gift | **VALENTINE, AZ?** | Jim & Monika — Heart-binary → "AZ" → Valentine, Arizona (Valentine's Day postmark) | Probable |
+| 36 | Gift Unifier | ??? | Unknown — not the Sudoku (Sudoku is Screen 10). Must connect the 10 gifts somehow. | Unsolved |
+| 37 | YT Short | ??? | "Mirror mirror on the wall" — Hallway with doors, cow with red key, bear with "HECK" | Unsolved |
+| 38 | YT Short | ??? | Chocolate heart — MrBeast + Amaury Gaichon | Unsolved |
+| 39 | Salesforce | CASABLANCA | Slack emoji puzzle → CA-SA-BL-AN-CA | Confirmed |
+| 40 | Salesforce | YELLOWKNIFE | Puzzle Maker — BTS video (multiple teams confirmed) | Confirmed |
+| 41 | Salesforce | **CHICAGO?** | BTS clocks show London, New York, Chicago, Tokyo. Chicago specific or just timezones? | Unconfirmed |
+| 42 | Salesforce | **MENTONE, AL?** | "EMON" underlined on billboard → EMON+T=MENTONE theory | Unconfirmed |
+| 43 | Salesforce | ??? | **Cow** — YouTube Short, red key door A→a. BeastBot confirmed. | Unsolved |
+| 44 | Salesforce | ??? | **Bear (Codey)** — Salesforce mascot, holds "HECK" sign. BeastBot confirmed. | Unsolved |
+| 45 | Salesforce | ??? | **Malcolm in Water** — Bolded in Slack. Vigenere cipher → "congratulations keep decoding." | Unsolved |
+| 46 | Salesforce | ??? | **Flamethrower** — BTS page, flickering pieces → number sequence. | Unsolved |
+| 47 | Salesforce | ??? | **FAQ** — mrbeast.salesforce.com/faq. BeastBot: "FAQs are necessarily a puzzle." | Unsolved |
+| 48 | Salesforce | ??? | **Lock** — Verify Lock on site, numbers don't follow normal padlock. | Unsolved |
+| 49 | Lone Shark | HEARD ISLAND | Bluesky homophones | Confirmed |
+| 50 | Lone Shark | ILE DE LA POSSESSION | Podcast / Hello Puzzlers anagram | Confirmed |
+| 51 | Lone Shark | ASCENSION ISLAND | BoardGameGeek — "Ascension" card game + "climbing"/"rising" acrostic | Confirmed |
+| — | Crossword | EYJAFJALLAJOKULL | 16 circled cells anagram (51st location, sets up Stage 2) | Confirmed |
+
+*Note: 51 puzzle slots above + crossword = 51 locations + 1 crossword. Some Salesforce entries may overlap with YouTube Shorts category.*
 
 ---
 
