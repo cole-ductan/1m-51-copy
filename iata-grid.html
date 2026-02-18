@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>beast.travel IATA Grid</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Courier New', monospace; background: #1a1a2e; color: #eee; padding: 20px; }
+  h1 { text-align: center; margin-bottom: 5px; color: #e94560; }
+  .subtitle { text-align: center; color: #888; margin-bottom: 4px; font-size: 14px; }
+  .subtitle:last-of-type { margin-bottom: 20px; }
+
+  .three-col { display: flex; gap: 30px; align-items: flex-start; justify-content: center; }
+  .col-grid { flex-shrink: 0; }
+  .col-tables { display: flex; gap: 20px; flex-shrink: 0; }
+
+  .grid-container { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-bottom: 30px; }
+  .grid-row { display: flex; gap: 8px; align-items: center; }
+  .word-label { width: 160px; text-align: right; font-size: 12px; color: #ccc; padding-right: 10px; }
+  .cell {
+    width: 120px; height: 70px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    border-radius: 8px; cursor: pointer; transition: all 0.2s;
+    font-weight: bold; font-size: 18px; position: relative;
+  }
+  .cell:hover { transform: scale(1.1); z-index: 10; }
+  .cell.valid { background: #0f3460; border: 2px solid #16c79a; }
+  .cell.valid:hover { background: #16c79a; color: #1a1a2e; }
+  .cell.invalid { background: #2a2a3e; border: 2px solid #e94560; opacity: 0.6; }
+  .cell .country { font-size: 10px; color: #aaa; margin-top: 2px; }
+  .cell.valid:hover .country { color: #1a1a2e; }
+  .cell .pos { position: absolute; top: 2px; left: 5px; font-size: 9px; color: #555; }
+  .stats { text-align: center; margin: 20px 0; font-size: 14px; color: #aaa; }
+  .stats span { color: #16c79a; font-weight: bold; }
+
+  .ref-table { border-collapse: collapse; font-size: 13px; }
+  .ref-table th { padding: 6px 12px; text-align: left; color: #16c79a; border-bottom: 2px solid #16c79a; position: sticky; top: 0; background: #1a1a2e; }
+  .ref-table td { padding: 5px 12px; border-bottom: 1px solid #2a2a3e; }
+  .ref-table tr:hover { background: #16213e; }
+  .ref-table .code-cell { font-weight: bold; font-size: 15px; color: #16c79a; }
+  .ref-table .invalid-row { opacity: 0.5; }
+  .ref-table .invalid-row .code-cell { color: #e94560; }
+
+  .detail-panel {
+    display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    background: #16213e; border: 2px solid #16c79a; border-radius: 12px;
+    padding: 25px; min-width: 350px; z-index: 100; box-shadow: 0 0 30px rgba(0,0,0,0.8);
+  }
+  .detail-panel.show { display: block; }
+  .detail-panel h2 { color: #16c79a; font-size: 28px; margin-bottom: 10px; }
+  .detail-panel .label { color: #888; font-size: 12px; text-transform: uppercase; margin-top: 10px; }
+  .detail-panel .value { color: #eee; font-size: 16px; }
+  .detail-panel .invalid-msg { color: #e94560; font-size: 16px; margin-top: 10px; }
+  .detail-panel .close { position: absolute; top: 10px; right: 15px; cursor: pointer; color: #888; font-size: 20px; }
+  .detail-panel .close:hover { color: #e94560; }
+  .detail-panel .map-link { color: #16c79a; text-decoration: none; font-size: 14px; }
+  .detail-panel .map-link:hover { text-decoration: underline; }
+  .detail-panel .word-context { color: #e94560; font-size: 14px; margin-top: 10px; }
+  .overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 99; }
+  .overlay.show { display: block; }
+
+  .legend { display: flex; justify-content: center; gap: 30px; margin: 15px 0; font-size: 13px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 14px; height: 14px; border-radius: 4px; }
+  .legend-dot.valid { background: #0f3460; border: 2px solid #16c79a; }
+  .legend-dot.invalid { background: #2a2a3e; border: 2px solid #e94560; }
+</style>
+</head>
+<body>
+
+<h1>beast.travel IATA Airport Code Grid</h1>
+<div class="subtitle">Each destination word on beast.travel splits into 3-letter chunks — many of them are real IATA airport codes.</div>
+<div class="subtitle">13 destination words × 4 trigrams = 52 codes (49 unique)</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot valid"></div> Valid IATA code (43)</div>
+  <div class="legend-item"><div class="legend-dot invalid"></div> Not found (6)</div>
+</div>
+
+<div class="stats">
+  <span>43</span> / 49 unique trigrams are valid IATA airport codes (88%) &nbsp;|&nbsp;
+  ~1 in 2,000,000 chance at random
+</div>
+
+<div class="three-col">
+  <div class="col-grid">
+    <div class="grid-container" id="grid"></div>
+  </div>
+  <div class="col-tables">
+    <table class="ref-table">
+      <thead><tr><th>#</th><th>Code</th><th>Airport</th><th>City</th><th>Country</th></tr></thead>
+      <tbody id="ref-body-1"></tbody>
+    </table>
+    <table class="ref-table">
+      <thead><tr><th>#</th><th>Code</th><th>Airport</th><th>City</th><th>Country</th></tr></thead>
+      <tbody id="ref-body-2"></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="overlay" id="overlay" onclick="closePanel()"></div>
+<div class="detail-panel" id="panel">
+  <span class="close" onclick="closePanel()">✕</span>
+  <h2 id="p-code"></h2>
+  <div id="p-content"></div>
+</div>
+
+<script>
+const data = [
+  { word: "BARODYNAMICS", page: "Car", solve: "OIL CITY?", codes: [
+    { code: "BAR", valid: true, airport: "Baker AAF", city: "Baker", country: "United States", lat: 30.508, lon: -86.523 },
+    { code: "ODY", valid: true, airport: "Oudomxay Airport", city: "Viangxai", country: "Laos", lat: 20.683, lon: 101.994 },
+    { code: "NAM", valid: true, airport: "Namlea Airport", city: "Namlea", country: "Indonesia", lat: -3.236, lon: 127.099 },
+    { code: "ICS", valid: true, airport: "Cascade Airport", city: "Cascade, Idaho", country: "United States", lat: 44.494, lon: -116.016 }
+  ]},
+  { word: "EBULLIOSCOPE", page: "Car", solve: "ARZAMAS?", codes: [
+    { code: "EBU", valid: true, airport: "Bouthéon Airport", city: "Saint-Étienne", country: "France", lat: 45.541, lon: 4.296 },
+    { code: "LLI", valid: true, airport: "Lalibela Airport", city: "Lalibela", country: "Ethiopia", lat: 11.975, lon: 38.980 },
+    { code: "OSC", valid: true, airport: "Wurtsmith AFB", city: "Oscoda, MI", country: "United States", lat: 44.452, lon: -83.394 },
+    { code: "OPE", valid: false }
+  ]},
+  { word: "FURFURACEOUS", page: "Car", solve: "DAR ES SALAAM?", codes: [
+    { code: "FUR", valid: true, airport: "Furnas Airport", city: "Furnas", country: "Brazil", lat: -20.702, lon: -46.318 },
+    { code: "FUR", valid: true, airport: "Furnas Airport", city: "Furnas", country: "Brazil", lat: -20.702, lon: -46.318, dup: true },
+    { code: "ACE", valid: true, airport: "Lanzarote Airport", city: "Tías", country: "Spain", lat: 28.945, lon: -13.605 },
+    { code: "OUS", valid: true, airport: "Ourinhos Airport", city: "Ourinhos", country: "Brazil", lat: -22.967, lon: -49.912 }
+  ]},
+  { word: "HAPAXANTHOUS", page: "Car", solve: "BAKU?", codes: [
+    { code: "HAP", valid: true, airport: "Long Island Airport", city: "Long Island", country: "Papua New Guinea", lat: -5.467, lon: 148.067 },
+    { code: "AXA", valid: true, airport: "Wallblake Airport", city: "The Valley", country: "Anguilla", lat: 18.205, lon: -63.055 },
+    { code: "NTH", valid: false },
+    { code: "OUS", valid: true, airport: "Ourinhos Airport", city: "Ourinhos", country: "Brazil", lat: -22.967, lon: -49.912 }
+  ]},
+  { word: "HEKISTOTHERM", page: "Car", solve: "WINNIPEG?", codes: [
+    { code: "HEK", valid: true, airport: "Heihe Airport", city: "Heihe", country: "China", lat: 50.172, lon: 127.309 },
+    { code: "IST", valid: true, airport: "Istanbul Airport", city: "Istanbul", country: "Turkey", lat: 41.262, lon: 28.728 },
+    { code: "OTH", valid: true, airport: "Southwest Oregon Regional", city: "North Bend, OR", country: "United States", lat: 43.417, lon: -124.246 },
+    { code: "ERM", valid: true, airport: "Erechim Airport", city: "Erechim", country: "Brazil", lat: -27.662, lon: -52.269 }
+  ]},
+  { word: "ABERUNCATORS", page: "Horse", solve: "ŌKATO, NZ", codes: [
+    { code: "ABE", valid: true, airport: "Lehigh Valley Intl", city: "Allentown, PA", country: "United States", lat: 40.652, lon: -75.443 },
+    { code: "RUN", valid: true, airport: "Roland Garros Airport", city: "Sainte-Marie", country: "Réunion (France)", lat: -20.890, lon: 55.519 },
+    { code: "CAT", valid: true, airport: "Cascais Municipal", city: "Lisbon", country: "Portugal", lat: 38.725, lon: -9.355 },
+    { code: "ORS", valid: true, airport: "Waterport SPB", city: "Orpheus Island", country: "Australia", lat: -18.633, lon: 146.483 }
+  ]},
+  { word: "DEAMBULATORY", page: "Horse", solve: "NOVA RUSSAS, BR", codes: [
+    { code: "DEA", valid: true, airport: "Dera Ghazi Khan Airport", city: "Dera Ghazi Khan", country: "Pakistan", lat: 29.961, lon: 70.486 },
+    { code: "MBU", valid: true, airport: "Babanakira Airport", city: "Mbambanakira", country: "Solomon Islands", lat: -9.748, lon: 159.839 },
+    { code: "LAT", valid: true, airport: "La Uribe Airport", city: "Cota", country: "Colombia", lat: 5.000, lon: -105.896 },
+    { code: "ORY", valid: true, airport: "Paris Orly Airport", city: "Paris", country: "France", lat: 48.723, lon: 2.379 }
+  ]},
+  { word: "FISSICOSTATE", page: "Horse", solve: "ČESKÉ BUDĚJOVICE", codes: [
+    { code: "FIS", valid: false },
+    { code: "SIC", valid: true, airport: "Isla Colón Intl", city: "San José Island", country: "Panama", lat: 9.340, lon: -82.260 },
+    { code: "OST", valid: true, airport: "Ostend-Bruges Intl", city: "Ostend", country: "Belgium", lat: 51.199, lon: 2.862 },
+    { code: "ATE", valid: true, airport: "Antlers Municipal", city: "Antlers, OK", country: "United States", lat: 34.193, lon: -95.650 }
+  ]},
+  { word: "ABOUTSLEDGES", page: "Plane", solve: "AMBANJA, MG", codes: [
+    { code: "ABO", valid: true, airport: "Aboisso Airport", city: "Aboisso", country: "Côte d'Ivoire", lat: 5.462, lon: -3.235 },
+    { code: "UTS", valid: true, airport: "Ust-Tsilma Airport", city: "Ust-Tsilma", country: "Russia", lat: 65.437, lon: 52.200 },
+    { code: "LED", valid: true, airport: "Pulkovo Airport", city: "St. Petersburg", country: "Russia", lat: 59.800, lon: 30.263 },
+    { code: "GES", valid: true, airport: "General Santos Intl", city: "General Santos", country: "Philippines", lat: 6.058, lon: 125.096 }
+  ]},
+  { word: "ABSQUATULATE", page: "Plane", solve: "SAINT-PIERRE, SPM", codes: [
+    { code: "ABS", valid: true, airport: "Abu Simbel Airport", city: "Abu Simbel", country: "Egypt", lat: 22.368, lon: 31.610 },
+    { code: "QUA", valid: true, airport: "Guarapuava Airport", city: "Guarapuava", country: "Brazil", lat: -25.385, lon: -51.465 },
+    { code: "TUL", valid: true, airport: "Tulsa Intl Airport", city: "Tulsa, OK", country: "United States", lat: 36.198, lon: -95.888 },
+    { code: "ATE", valid: true, airport: "Antlers Municipal", city: "Antlers, OK", country: "United States", lat: 34.193, lon: -95.650 }
+  ]},
+  { word: "ECTYPOGRAPHY", page: "Plane", solve: "KRASNODAR, RU", codes: [
+    { code: "ECT", valid: false },
+    { code: "YPO", valid: false },
+    { code: "GRA", valid: true, airport: "Gamarra Airport", city: "Gamarra", country: "Colombia", lat: 8.329, lon: -73.728 },
+    { code: "PHY", valid: true, airport: "Phetchabun Airport", city: "Lom Sak", country: "Thailand", lat: 16.676, lon: 101.195 }
+  ]},
+  { word: "ELEEMOSYNARY", page: "Plane", solve: "TUCUMÁN, AR", codes: [
+    { code: "ELE", valid: true, airport: "El Real Airport", city: "El Real", country: "Panama", lat: 8.107, lon: -77.726 },
+    { code: "EMO", valid: true, airport: "Emo Airport", city: "Emo", country: "Papua New Guinea", lat: -7.950, lon: 148.017 },
+    { code: "SYN", valid: true, airport: "Stanton Airport", city: "Stanton, MN", country: "United States", lat: 44.468, lon: -93.017 },
+    { code: "ARY", valid: true, airport: "Ararat Airport", city: "Ararat", country: "Australia", lat: -37.310, lon: 142.989 }
+  ]},
+  { word: "EPANOSTROPHE", page: "Plane", solve: "DERBY, AU", codes: [
+    { code: "EPA", valid: true, airport: "Palo Alto Airport", city: "Palo Alto, CA", country: "United States", lat: 37.461, lon: -122.115 },
+    { code: "NOS", valid: true, airport: "Nosara Airport", city: "Nosara", country: "Costa Rica", lat: 9.977, lon: -85.653 },
+    { code: "TRO", valid: true, airport: "Tromsø Airport", city: "Tromsø", country: "Norway", lat: 69.683, lon: 18.919 },
+    { code: "PHE", valid: false }
+  ]}
+];
+
+const grid = document.getElementById('grid');
+const validEntries = [];
+let pos = 0;
+
+data.forEach((row, ri) => {
+  const rowEl = document.createElement('div');
+  rowEl.className = 'grid-row';
+
+  const label = document.createElement('div');
+  label.className = 'word-label';
+  label.innerHTML = `${row.word}<br><span style="color:#e94560">${row.page}</span> → ${row.solve}`;
+  rowEl.appendChild(label);
+
+  row.codes.forEach((c, ci) => {
+    pos++;
+    const cell = document.createElement('div');
+    cell.className = `cell ${c.valid ? 'valid' : 'invalid'}`;
+    const countryText = c.valid ? c.country : '';
+    cell.innerHTML = `<span class="pos">${pos}</span>${c.code}${c.valid ? `<span class="country">${countryText}</span>` : ''}`;
+    if (!c.dup) {
+      cell.onclick = () => showPanel(c, row.word, pos);
+    }
+    rowEl.appendChild(cell);
+
+    if (!c.dup) {
+      validEntries.push({ ...c, pos });
+    }
+  });
+
+  grid.appendChild(rowEl);
+});
+
+// Split valid entries across two table columns
+const half = Math.ceil(validEntries.length / 2);
+const refBody1 = document.getElementById('ref-body-1');
+const refBody2 = document.getElementById('ref-body-2');
+
+validEntries.forEach((c, i) => {
+  const tr = document.createElement('tr');
+  if (!c.valid) tr.className = 'invalid-row';
+  tr.innerHTML = `
+    <td>${c.pos}</td>
+    <td class="code-cell">${c.code}</td>
+    <td>${c.valid ? c.airport : '—'}</td>
+    <td>${c.valid ? c.city : '—'}</td>
+    <td>${c.valid ? c.country : '—'}</td>
+  `;
+  (i < half ? refBody1 : refBody2).appendChild(tr);
+});
+
+function showPanel(c, word, pos) {
+  document.getElementById('p-code').textContent = c.code;
+  const content = document.getElementById('p-content');
+
+  if (c.valid) {
+    const mapsUrl = `https://www.google.com/maps?q=${c.lat},${c.lon}&z=8`;
+    content.innerHTML = `
+      <div class="label">Airport</div>
+      <div class="value">${c.airport}</div>
+      <div class="label">City</div>
+      <div class="value">${c.city}</div>
+      <div class="label">Country</div>
+      <div class="value">${c.country}</div>
+      <div class="label">Position in grid</div>
+      <div class="value">#${pos} of 52</div>
+      <div class="word-context">From: ${word}</div>
+      <div style="margin-top:12px">
+        <a class="map-link" href="${mapsUrl}" target="_blank">📍 View on Google Maps</a>
+      </div>
+    `;
+  } else {
+    content.innerHTML = `
+      <div class="invalid-msg">Not a valid IATA airport code</div>
+      <div class="label">Position in grid</div>
+      <div class="value">#${pos} of 52</div>
+      <div class="word-context">From: ${word}</div>
+    `;
+  }
+
+  document.getElementById('panel').classList.add('show');
+  document.getElementById('overlay').classList.add('show');
+}
+
+function closePanel() {
+  document.getElementById('panel').classList.remove('show');
+  document.getElementById('overlay').classList.remove('show');
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
+</script>
+</body>
+</html>
