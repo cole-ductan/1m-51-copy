@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OneMil Sudoku PDF Solver</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0f0f0f; color: #e0e0e0; padding: 20px; }
+  h1 { text-align: center; margin-bottom: 6px; font-size: 1.5em; }
+  .subtitle { text-align: center; color: #888; margin-bottom: 20px; font-size: 0.9em; }
+
+  .drop-zone { border: 2px dashed #444; border-radius: 10px; padding: 40px; text-align: center; color: #666;
+               margin: 0 auto 20px; max-width: 500px; transition: all 0.2s; cursor: pointer; }
+  .drop-zone.dragover { border-color: #2a8c3a; background: #1a2a1a; color: #2a8c3a; }
+
+  #summary { text-align: center; margin-bottom: 16px; color: #888; font-size: 0.85em; }
+  #summary span { color: #2a8c3a; font-weight: bold; }
+
+  .progress { max-width: 500px; margin: 0 auto 16px; height: 4px; background: #222; border-radius: 2px; overflow: hidden; display: none; }
+  .progress-bar { height: 100%; background: #2a8c3a; transition: width 0.15s; width: 0%; }
+
+  #results { max-width: 900px; margin: 0 auto; }
+
+  .puzzle-card { background: #1a1a1a; border: 1px solid #333; border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+
+  .status-msg { text-align: center; padding: 10px; border-radius: 6px; margin-bottom: 14px; font-size: 0.9em; }
+  .status-msg.unique { background: #1a3a1a; color: #4c4; border: 1px solid #2a5a2a; }
+  .status-msg.none { background: #3a1a1a; color: #c44; border: 1px solid #5a2a2a; }
+  .status-msg.multiple { background: #3a3a1a; color: #cc4; border: 1px solid #5a5a2a; }
+  .status-msg.error { background: #2a1a1a; color: #a66; border: 1px solid #4a2a2a; }
+  .status-msg .solve-time { opacity: 0.6; font-size: 0.85em; }
+
+  .columns { display: flex; gap: 24px; justify-content: center; align-items: flex-start; flex-wrap: wrap; }
+  .col { text-align: center; flex: 0 0 auto; }
+  .col-label { font-size: 0.8em; color: #888; margin-bottom: 8px; }
+
+  .pdf-canvas { background: #fff; border-radius: 4px; max-width: 100%; height: auto; }
+
+  table.sudoku { border-collapse: collapse; margin: 0 auto; }
+  table.sudoku td { width: 36px; height: 36px; text-align: center; font-size: 18px; font-family: 'Courier New', monospace;
+                    font-weight: bold; border: 1px solid #333; }
+  table.sudoku td.given { color: #fff; }
+  table.sudoku td.solved { color: #4c4; }
+  table.sudoku td.box-right { border-right: 2px solid #888; }
+  table.sudoku td.box-bottom { border-bottom: 2px solid #888; }
+  table.sudoku td.box-top { border-top: 2px solid #888; }
+  table.sudoku td.box-left { border-left: 2px solid #888; }
+
+  @media (max-width: 700px) {
+    .columns { flex-direction: column; align-items: center; }
+    table.sudoku td { width: 30px; height: 30px; font-size: 15px; }
+  }
+</style>
+</head>
+<body>
+
+<h1>OneMil Sudoku PDF Solver</h1>
+<p class="subtitle">Drop one or more PDFs to extract and solve</p>
+
+<div class="drop-zone" id="dropZone">
+  Drop sudoku PDFs here, or click to browse
+</div>
+
+<div class="progress" id="progress"><div class="progress-bar" id="progressBar"></div></div>
+<div id="summary"></div>
+<div id="results"></div>
+
+<script type="module">
+import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.mjs';
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.mjs';
+
+// Fixed grid positions (verified on 1010 onemil PDFs)
+const COL_X = [131, 171, 211, 254, 294, 334, 377, 417, 457];
+const ROW_Y = [555.1, 515.1, 475.1, 432.1, 392.1, 352.1, 309.1, 269.1, 229.1];
+const CHAR_ADVANCE = 20;
+
+let totalSolved = 0, totalFailed = 0, totalMs = 0, totalUploaded = 0;
+
+function nearestIdx(arr, val) {
+  let best = 0, bestDist = Math.abs(arr[0] - val);
+  for (let i = 1; i < arr.length; i++) {
+    const d = Math.abs(arr[i] - val);
+    if (d < bestDist) { best = i; bestDist = d; }
+  }
+  return best;
+}
+
+// ─── PDF Grid Extraction ───────────────────────────────────────────
+
+function extractGridFromTextContent(textContent) {
+  const items = textContent.items.filter(it => it.str.trim());
+
+  let lowestY = Infinity, lowestYItem = null;
+  for (const item of items) {
+    if (item.transform[5] < lowestY) { lowestY = item.transform[5]; lowestYItem = item; }
+  }
+
+  let puzzleId = null;
+  if (lowestYItem) {
+    const idStr = lowestYItem.str.replace(/\s/g, '');
+    if (/^\d{4,7}$/.test(idStr)) puzzleId = idStr;
+  }
+
+  const grid = Array.from({ length: 9 }, () => Array(9).fill(0));
+  let digitCount = 0;
+
+  for (const item of items) {
+    if (item === lowestYItem && puzzleId) continue;
+    const baseX = item.transform[4];
+    const y = item.transform[5];
+    const row = nearestIdx(ROW_Y, y);
+
+    for (let i = 0; i < item.str.length; i++) {
+      const ch = item.str[i];
+      if (ch >= '1' && ch <= '9') {
+        const x = baseX + i * CHAR_ADVANCE;
+        const col = nearestIdx(COL_X, x);
+        grid[row][col] = parseInt(ch);
+        digitCount++;
+      }
+    }
+  }
+
+  if (digitCount < 17) {
+    return { puzzleId, grid: null, error: `Only ${digitCount} digits found (need >= 17)` };
+  }
+  return { puzzleId, grid, digitCount, error: null };
+}
+
+// ─── Sudoku Solver ─────────────────────────────────────────────────
+
+function solveSudoku(grid) {
+  const solutions = [];
+
+  function getCandidates(g, r, c) {
+    const used = new Set();
+    for (let i = 0; i < 9; i++) { if (g[r][i]) used.add(g[r][i]); if (g[i][c]) used.add(g[i][c]); }
+    const br = Math.floor(r / 3) * 3, bc = Math.floor(c / 3) * 3;
+    for (let dr = 0; dr < 3; dr++)
+      for (let dc = 0; dc < 3; dc++)
+        if (g[br + dr][bc + dc]) used.add(g[br + dr][bc + dc]);
+    const cands = [];
+    for (let v = 1; v <= 9; v++) if (!used.has(v)) cands.push(v);
+    return cands;
+  }
+
+  function solve(g) {
+    if (solutions.length >= 2) return;
+    let minCands = null, minR = -1, minC = -1;
+    for (let r = 0; r < 9; r++) {
+      for (let c = 0; c < 9; c++) {
+        if (g[r][c] === 0) {
+          const cands = getCandidates(g, r, c);
+          if (cands.length === 0) return;
+          if (!minCands || cands.length < minCands.length) {
+            minCands = cands; minR = r; minC = c;
+          }
+        }
+      }
+    }
+    if (!minCands) { solutions.push(g.map(r => [...r])); return; }
+    for (const v of minCands) {
+      if (solutions.length >= 2) return;
+      g[minR][minC] = v;
+      solve(g);
+      g[minR][minC] = 0;
+    }
+  }
+
+  solve(grid.map(r => [...r]));
+  if (solutions.length === 0) return { status: 'none', solutions: [] };
+  if (solutions.length === 1) return { status: 'unique', solutions };
+  return { status: 'multiple', solutions };
+}
+
+// ─── Render PDF page to canvas ─────────────────────────────────────
+
+async function renderPdfToCanvas(page, width) {
+  const unscaledViewport = page.getViewport({ scale: 1 });
+  const scale = width / unscaledViewport.width;
+  const viewport = page.getViewport({ scale });
+  const canvas = document.createElement('canvas');
+  canvas.className = 'pdf-canvas';
+  canvas.width = viewport.width;
+  canvas.height = viewport.height;
+  canvas.style.width = viewport.width + 'px';
+  canvas.style.height = viewport.height + 'px';
+  await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
+  return canvas;
+}
+
+// ─── UI ────────────────────────────────────────────────────────────
+
+function renderGrid(grid, given) {
+  const table = document.createElement('table');
+  table.className = 'sudoku';
+  for (let r = 0; r < 9; r++) {
+    const tr = document.createElement('tr');
+    for (let c = 0; c < 9; c++) {
+      const td = document.createElement('td');
+      const val = grid[r][c];
+      if (val) td.textContent = val;
+      if (given && given[r][c]) td.classList.add('given');
+      else if (val) td.classList.add('solved');
+      if (c === 2 || c === 5) td.classList.add('box-right');
+      if (c === 0 || c === 3 || c === 6) td.classList.add('box-left');
+      if (r === 2 || r === 5) td.classList.add('box-bottom');
+      if (r === 0 || r === 3 || r === 6) td.classList.add('box-top');
+      tr.appendChild(td);
+    }
+    table.appendChild(tr);
+  }
+  return table;
+}
+
+function updateSummary() {
+  const processed = totalSolved + totalFailed;
+  if (totalUploaded === 0) { document.getElementById('summary').textContent = ''; return; }
+  const avgMs = processed > 0 ? (totalMs / processed).toFixed(1) : 0;
+  const totalTime = totalMs < 1000 ? `${totalMs.toFixed(0)}ms` : `${(totalMs / 1000).toFixed(1)}s`;
+  document.getElementById('summary').innerHTML =
+    `<span>${totalSolved}</span>/${totalUploaded} solved` +
+    (totalFailed > 0 ? ` | <span style="color:#c44">${totalFailed} failed</span>` : '') +
+    ` | avg <span>${avgMs}ms</span> | total <span>${totalTime}</span>`;
+}
+
+async function addCard(page, puzzleId, grid, solveResult, solveMs) {
+  const card = document.createElement('div');
+  card.className = 'puzzle-card';
+
+  // Status
+  const msg = document.createElement('div');
+  msg.className = 'status-msg ' + solveResult.status;
+  const labels = {
+    unique: `#${puzzleId} — Unique solution`,
+    multiple: `#${puzzleId} — Multiple solutions`,
+    none: `#${puzzleId} — No valid solution`
+  };
+  msg.innerHTML = `${labels[solveResult.status]} <span class="solve-time">(${solveMs}ms)</span>`;
+  card.appendChild(msg);
+
+  // Two columns
+  const columns = document.createElement('div');
+  columns.className = 'columns';
+
+  // Left: PDF render
+  const leftCol = document.createElement('div');
+  leftCol.className = 'col';
+  const leftLabel = document.createElement('div');
+  leftLabel.className = 'col-label';
+  leftLabel.textContent = 'Original PDF';
+  leftCol.appendChild(leftLabel);
+  const canvas = await renderPdfToCanvas(page, 340);
+  leftCol.appendChild(canvas);
+  columns.appendChild(leftCol);
+
+  // Right: solution(s)
+  for (let i = 0; i < solveResult.solutions.length; i++) {
+    const rightCol = document.createElement('div');
+    rightCol.className = 'col';
+    const rightLabel = document.createElement('div');
+    rightLabel.className = 'col-label';
+    rightLabel.textContent = solveResult.solutions.length === 1 ? 'Solution' : `Solution ${i + 1}`;
+    rightCol.appendChild(rightLabel);
+    rightCol.appendChild(renderGrid(solveResult.solutions[i], grid));
+    columns.appendChild(rightCol);
+  }
+
+  if (solveResult.solutions.length === 0) {
+    const rightCol = document.createElement('div');
+    rightCol.className = 'col';
+    const rightLabel = document.createElement('div');
+    rightLabel.className = 'col-label';
+    rightLabel.textContent = 'Extracted Grid';
+    rightCol.appendChild(rightLabel);
+    rightCol.appendChild(renderGrid(grid, null));
+    columns.appendChild(rightCol);
+  }
+
+  card.appendChild(columns);
+  document.getElementById('results').appendChild(card);
+}
+
+function addErrorCard(filename, message) {
+  const card = document.createElement('div');
+  card.className = 'puzzle-card';
+  const msg = document.createElement('div');
+  msg.className = 'status-msg error';
+  msg.textContent = `${filename}: ${message}`;
+  card.appendChild(msg);
+  document.getElementById('results').appendChild(card);
+}
+
+// ─── File Handling ─────────────────────────────────────────────────
+
+async function processPdf(data, filename) {
+  try {
+    const pdf = await pdfjsLib.getDocument({ data }).promise;
+    const page = await pdf.getPage(1);
+    const textContent = await page.getTextContent();
+    const { puzzleId, grid, error } = extractGridFromTextContent(textContent);
+
+    if (error || !grid) {
+      addErrorCard(filename, error || 'Could not extract grid');
+      totalFailed++;
+      updateSummary();
+      return;
+    }
+
+    const t0 = performance.now();
+    const solveResult = solveSudoku(grid);
+    const solveMs = (performance.now() - t0).toFixed(1);
+    totalMs += parseFloat(solveMs);
+
+    if (solveResult.status === 'unique') totalSolved++;
+    else totalFailed++;
+
+    await addCard(page, puzzleId || filename, grid, solveResult, solveMs);
+    updateSummary();
+  } catch (e) {
+    addErrorCard(filename, e.message);
+    totalFailed++;
+    updateSummary();
+  }
+}
+
+const fileQueue = [];
+let processing = false;
+
+function updateProgress() {
+  const prog = document.getElementById('progress');
+  const bar = document.getElementById('progressBar');
+  const processed = totalSolved + totalFailed;
+  if (totalUploaded > 0 && processed < totalUploaded) {
+    prog.style.display = 'block';
+    bar.style.width = (processed / totalUploaded * 100) + '%';
+  } else {
+    prog.style.display = 'none';
+  }
+}
+
+async function processQueue() {
+  if (processing) return;
+  processing = true;
+
+  while (fileQueue.length > 0) {
+    const file = fileQueue.shift();
+    const buf = await file.arrayBuffer();
+    await processPdf(new Uint8Array(buf), file.name);
+    updateProgress();
+  }
+
+  processing = false;
+}
+
+function addFiles(files) {
+  totalUploaded += files.length;
+  fileQueue.push(...files);
+  updateSummary();
+  updateProgress();
+  processQueue();
+}
+
+const dropZone = document.getElementById('dropZone');
+const fileInput = document.createElement('input');
+fileInput.type = 'file';
+fileInput.accept = '.pdf';
+fileInput.multiple = true;
+
+dropZone.addEventListener('click', () => fileInput.click());
+dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('dragover'); });
+dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
+dropZone.addEventListener('drop', async e => {
+  e.preventDefault();
+  dropZone.classList.remove('dragover');
+  const files = [...e.dataTransfer.files].filter(f => f.name.endsWith('.pdf'));
+  if (files.length) addFiles(files);
+});
+fileInput.addEventListener('change', () => {
+  if (fileInput.files.length) {
+    addFiles([...fileInput.files]);
+    fileInput.value = '';
+  }
+});
+
+</script>
+</body>
+</html>
