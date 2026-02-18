@@ -272,7 +272,7 @@
 
 **Extraction method:** Taglines are cryptic clue indicators. Cryptic clues solve to words → **what3words (W3W) addresses** → locations.
 
-**IATA Airport Code Grid (43/49 valid — statistically significant):** Each 12-letter word splits into four 3-letter groups. 88% are valid IATA codes (vs. 54% base rate). Almost certainly intentional. 6 invalid codes (ECT, YPO, OPE, PHE, FIS, NTH) may be the extraction layer.
+**IATA Airport Code Grid (43/49 valid — statistically significant):** Each 12-letter word splits into four 3-letter groups. 88% are valid IATA codes (vs. 54% base rate). Almost certainly intentional. Full grid in [beast.travel page](beast-travel.md).
 
 **Photo puzzles (separate layer):** Car photo puzzle → **REGINA** (Saskatchewan, Canada). Horse/Plane photo puzzles unsolved.
 

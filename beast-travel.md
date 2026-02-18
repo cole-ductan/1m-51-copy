@@ -39,4 +39,26 @@
 
 ---
 
+## IATA Airport Code Grid
+
+Each 12-letter destination splits into four 3-letter groups. 43 of 49 are valid IATA airport codes (88%, vs 54% base rate — statistically significant).
+
+| Destination | Codes | Solve |
+|-------------|-------|-------|
+| BARODYNAMICS | BAR · ODY · NAM · ICS | CASPER? |
+| EBULLIOSCOPE | EBU · LLI · OSC · OPE | ARZAMAS? |
+| FURFURACEOUS | FUR · FUR · ACE · OUS | DAR ES SALAAM? |
+| HAPAXANTHOUS | HAP · AXA · NTH · OUS | BAKU? |
+| HEKISTOTHERM | HEK · IST · OTH · ERM | WINNIPEG? |
+| ABERUNCATORS | ABE · RUN · CAT · ORS | **OKATO** |
+| DEAMBULATORY | DEA · MBU · LAT · ORY | **NOVA RUSSAS** |
+| FISSICOSTATE | FIS · SIC · OST · ATE | **ČESKÉ BUDĚJOVICE** |
+| ABOUTSLEDGES | ABO · UTS · LED · GES | **AMBANJA** |
+| ABSQUATULATE | ABS · QUA · TUL · ATE | **SAINT-PIERRE** |
+| ECTYPOGRAPHY | ECT · YPO · GRA · PHY | **KRASNODAR** |
+| ELEEMOSYNARY | ELE · EMO · SYN · ARY | **TUCUMÁN** |
+| EPANOSTROPHE | EPA · NOS · TRO · PHE | **DERBY** |
+
+---
+
 **Feedback?** [discord.gg/PeArHATD](https://discord.gg/PeArHATD)
