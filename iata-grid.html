@@ -232,9 +232,7 @@ data.forEach((row, ri) => {
     cell.className = `cell ${c.valid ? 'valid' : 'invalid'}`;
     const countryText = c.valid ? c.country : '';
     cell.innerHTML = `<span class="pos">${pos}</span>${c.code}${c.valid ? `<span class="country">${countryText}</span>` : ''}`;
-    if (!c.dup) {
-      cell.onclick = () => showPanel(c, row.word, pos);
-    }
+    cell.onclick = () => showPanel(c, row.word, pos);
     rowEl.appendChild(cell);
 
     if (!c.dup) {
