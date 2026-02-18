@@ -1,6 +1,8 @@
 # 51 Locations — All in One
 
-**23 confirmed, 9 probable, 3 unconfirmed = 35 with answers, ~16 unknown** | *Feb 17, 2026 ~7:35 PM PST*
+**25 confirmed, 9 probable, 2 unconfirmed = 36 with answers, ~15 unknown** | *Feb 17, 2026 ~7:44 PM PST*
+
+**Feedback?** [discord.gg/PeArHATD](https://discord.gg/PeArHATD)
 
 | # | Category | Location | Puzzle | Confidence |
 |---|----------|----------|--------|------------|

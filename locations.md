@@ -2,11 +2,13 @@
 
 **Source:** Hint #6 (Feb 14) confirmed exactly 51 location-yielding puzzles across 9 categories.
 
-**Status:** 23 confirmed, 9 probable, 3 unconfirmed = 35 with answers, ~16 unsolved.
+**Status:** 25 confirmed, 9 probable, 2 unconfirmed = 36 with answers, ~15 unsolved.
 
-**Last updated:** Feb 17, 2026 ~7:35 PM PST
+**Last updated:** Feb 17, 2026 ~7:44 PM PST
 
 *Confidence tiers: Confirmed = clean decode + multiple sources. Probable = good evidence, community consensus. Unconfirmed = debated or speculative. Only promoted if decode method is documented.*
+
+**Feedback?** [discord.gg/PeArHATD](https://discord.gg/PeArHATD)
 
 ---
 
