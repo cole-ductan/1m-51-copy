@@ -1,6 +1,6 @@
 # 51 Locations — All in One
 
-**27 confirmed, 9 probable, 2 unconfirmed = 38 with answers, ~13 unknown** | *Feb 18, 2026 ~12:15 PM PST*
+**26 confirmed, 14 probable, 2 unconfirmed = 42 with answers, ~9 unknown** | *Feb 19, 2026 ~10:00 AM PST*
 
 **Feedback?** [discord.gg/KCtjNMJeYv](https://discord.gg/KCtjNMJeYv)
 
@@ -10,7 +10,7 @@
 | 2 | Screen 1 + Bank | **BENIN?** | "Mark BENI off" = scribble BENI from BENIOFF. Backwards-J = recade (Benin national symbol). BeastBot: "sound it out" + "what is removed." Country not city — could be Cotonou or Porto-Novo. | Unconfirmed |
 | 3 | Screen 2 + Bank | ??? | Trench coat + Calendar. **BeastBot confirmed: "the banker isn't American"** — dates are DD/MM not MM/DD. BeastBot also says look at "underscored numbers." Sine wave "has something to do with the withdrawal slip." | Unsolved |
 | 4 | Screen 3 + Bank | CAIRO | Candyland rebus + Feastables shirt. Candyland color indexing → CAIRO. | Confirmed |
-| 5 | Screen 4 + Bank | **KOMI REPUBLIC?** | Sine wave + Withdrawal slip. Routing 650283979, acct 5480234354 → coordinates 65.0283979°N, 54.80234354°E → Komi Republic, Russia. | Probable |
+| 5 | Screen 4 + Bank | **LOWER HUTT?** | Sine wave + Withdrawal slip. BeastBot: "no 1s, but there are 0s." Cosine pattern on digits removes 0s/1s → T9 keypad decode → **LOWER HUTT NEW ZEALAND**. Replaces Komi Republic. | Probable |
 | 6 | Screen 5 + Bank | **ANKARA** | Spider (ARACHNID) + Ballerina (ARABESQUE) → shared=ARA. Tank/Bank signs → shared=ANK. ARA+ANK=ANKARA. BeastBot guided: "look for what words have in common." | Confirmed |
 | 7 | Screen 6 + Bank | **TBILISI?** | Bird cipher → DINAMO. Coffee cup shows Georgia outline. DINAMO + Georgia → FC Dinamo Tbilisi. Multiple independent solvers. Weakness: Dinamo Batumi also Georgian. | Probable |
 | 8 | Screen 7 + Bank | **CEBU?** | IPESIT→STEP II→SEP 2→remove T sound→say aloud→"Cebu." Only theory using all 4 elements (plate, pirate, ear, T-removal). | Probable |
@@ -28,14 +28,14 @@
 | 20 | Commercial | **TASHKENT?** | Marked bills → A1Z26 = "CASH TENT." BeastBot: "underscored numbers" — may be incomplete. | Probable |
 | 21 | Commercial | TALLINN | Subtitles hyphens → "Seven Letter Big Lodge" → tall inn | Confirmed |
 | 22 | Commercial | **NEW ORLEANS?** | Tank numbers + "I scream" / ice cream video | Probable |
-| 23 | Commercial | ??? | Smoke grenade (BeastBot confirmed puzzle) | Unsolved |
+| 23 | Commercial | **GRANADA?** | Smoke grenade. BeastBot: "Grenades demand to be taken literally" + "SMOKE is just a type, the other letters matter" + "4 parts." GRENADE → GRANADA (Spanish: grenade = granada = pomegranate). | Unconfirmed |
 | 24 | Commercial | ??? | Camel/Llama (BeastBot confirmed, "BEASTLAND" = Saudi Arabia) | Unsolved |
 | 25 | Commercial | ??? | 12th commercial puzzle — not yet identified | Unsolved |
 | 26 | Gift | DIVO | Jack McKenna — Card trick → Divo, Côte d'Ivoire | Confirmed |
 | 27 | Gift | BUFFALO | Botez Sisters — Chess Game 6 cipher | Confirmed |
 | 28 | Gift | TIERRA DEL FUEGO | Quackity — Sword with text + Beagle Channel | Confirmed |
 | 29 | Gift | DEKALB | Hayleybaylee — Rings → DeKalb, Illinois | Confirmed |
-| 30 | Gift | NEW YORK CITY | Jimmy Fallon — "JIMMYS BIRTHPLACE" = Fallon's birthplace (multiple teams confirmed) | Confirmed |
+| 30 | Gift | **WICHITA, KS?** | Jimmy Fallon — "JIMMYS BIRTHPLACE." BeastBot: "present is more reflective of the **giver**" → MrBeast (Jimmy Donaldson) born in Wichita, KS. Replaces NYC. | Probable |
 | 31 | Gift | CAIRNS, QUEENSLAND | Chris Hemsworth — "LAND OF CAIRNS" → Queensland (multiple teams confirmed) | Confirmed |
 | 32 | Gift | **TAMPA BAY?** | Sketch — "THE ANGRY LAIR" = Mad Den = Madden → Madden 99 club → BUCS HOME → Tampa Bay | Probable |
 | 33 | Gift | COPENHAGEN | Pierson — Blender food combos → HAFNIUM CITY → Latin for Copenhagen | Confirmed |
@@ -45,12 +45,12 @@
 | 37 | YT Short | **QUITO, Ecuador** | "Mirror mirror on the wall" — 5 red items → phonetic: KEY-TOW-HECK-QUID-DOOR = "Quito Ecuador." Multiple independent solvers. | Confirmed |
 | 38 | YT Short | ??? | Chocolate heart — MrBeast + Amaury Gaichon | Unsolved |
 | 39 | SF: BTS (A1) | ??? | **Malcolm in Water** — "2 underwater" (1st). Vigenere cipher confirmed. | Puzzle confirmed, unsolved |
-| 40 | SF: BTS (A2) | ??? | **Submarine Math** — "2 underwater" (2nd). BTS video ~3:17. | Puzzle confirmed, unsolved |
+| 40 | SF: BTS (A2) | **ITURUP?** | **Submarine Math** — "2 underwater" (2nd). BTS video ~3:17, grid + numbers + subscriber count → ASCII → **ITURUP** (Kuril Islands). Pieup decode, retrocraft confirmed (Feb 19). | Probable |
 | 41 | SF: BTS (A3) | YELLOWKNIFE | **Puzzle Maker** — "1 in pieces." BTS video 6:19. Multiple teams confirmed. | **Confirmed** |
 | 42 | SF: BTS (A4) | **THANE, India?** | **Elephant 85673** — "1 never forgets." 85673 indexes into ELEPHANT: 8=T,5=H,6=A,7=N,3=E → THANE. Major Indian city (1.9M). Twitter @ELEPHANT85673 confirmed fake (Hint #10) but number appears independently in BTS. | Probable |
 | 43 | SF: Physical (B1) | **NAZARÉ, Portugal** | **Salesforce Tower LED video** — "1 may take a while to watch." Blue durations in seconds → A1Z26 = "SURF RECORD SITE WITH ARGENT HUE." Nazaré = surf record site on Portugal's Silver Coast (argent = silver). | Confirmed |
-| 44 | SF: Physical (B2) | **DIMTU, Ethiopia?** | **Billboard** — numbers 04 09 13 20 21 → A1Z26 = D-I-M-T-U. Also "EMON" underlined on separate billboard → MENTONE theory. Neither confirmed. | Unconfirmed |
-| 45 | SF: Physical (B3) | ??? | **???** — 3rd large physical object on X feed. Unidentified. | Not found |
+| 44 | SF: Physical (B2) | **NOME, Alaska?** | **Billboard (letters)** — "e mon" underlined, read backwards → NOME. BeastBot: "two puzzles on this object, one letters and one numbers." | Probable |
+| 45 | SF: Physical (B3) | **DIMTU, Ethiopia?** | **Billboard (numbers)** — same billboard as B2. Lock numbers 04 09 13 20 21 → A1Z26 = D-I-M-T-U. | Probable |
 | 46 | SF: Site (C1) | ??? | **Dot-Dollar / "How?" video** — "1 helpful video." Multiple teams identified. | Puzzle confirmed, unsolved |
 | 47 | SF: Site (C2) | ??? | **FAQ** — "1 follows our advice." BeastBot: "FAQs are necessarily a puzzle." | Puzzle confirmed, unsolved |
 | 48 | Lone Shark | HEARD ISLAND | Bluesky homophones | Confirmed |
