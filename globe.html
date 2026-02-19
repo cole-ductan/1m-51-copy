@@ -192,30 +192,31 @@ function getAllVisible() {
   return locations.filter(passesFilter);
 }
 
-// Build globe — Stage 1 as round cylinders, beast.travel as square towers
+// Build globe — all locations as points, beast.travel gets Saturn-like ring halos
+function getAllVisible() {
+  return locations.filter(passesFilter);
+}
+
 const globe = Globe()
   .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-night.jpg')
   .backgroundImageUrl('https://unpkg.com/three-globe/example/img/night-sky.png')
-  // Stage 1: cylindrical dots
-  .pointsData(getStage1())
+  // All locations: interactive dots
+  .pointsData(getAllVisible())
   .pointLat('lat')
   .pointLng('lng')
   .pointColor(d => colors[d.confidence] || '#888')
   .pointRadius(0.5)
   .pointAltitude(0.01)
   .pointLabel(makeLabel)
-  // beast.travel: square towers
-  .objectsData(getBeastTravel())
-  .objectLat('lat')
-  .objectLng('lng')
-  .objectAltitude(0.005)
-  .objectThreeObject(d => {
-    const col = new THREE.Color(colors[d.confidence] || '#888');
-    const geo = new THREE.BoxGeometry(0.7, 0.7, 2.5);
-    const mat = new THREE.MeshLambertMaterial({ color: col, transparent: true, opacity: 0.85 });
-    return new THREE.Mesh(geo, mat);
-  })
-  .objectLabel(makeLabel)
+  // beast.travel: static-looking ring halos (Saturn style)
+  .ringsData(getBeastTravel())
+  .ringLat('lat')
+  .ringLng('lng')
+  .ringColor(d => () => colors[d.confidence] || '#888')
+  .ringMaxRadius(1.8)
+  .ringPropagationSpeed(0.2)
+  .ringRepeatPeriod(300)
+  .ringAltitude(0.01)
   (document.getElementById('globe'));
 
 // Adjust camera
@@ -251,8 +252,8 @@ function updateStats() {
 }
 
 function refresh() {
-  globe.pointsData(getStage1());
-  globe.objectsData(getBeastTravel());
+  globe.pointsData(getAllVisible());
+  globe.ringsData(getBeastTravel());
   updateStats();
 }
 
