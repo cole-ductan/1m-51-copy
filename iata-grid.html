@@ -97,15 +97,15 @@
 
 <h1>beast.travel IATA Airport Code Grid</h1>
 <div class="subtitle">Each destination word on beast.travel splits into 3-letter chunks — many of them are real IATA airport codes.</div>
-<div class="subtitle">13 destination words × 4 trigrams = 52 codes (49 unique)</div>
+<div class="subtitle">20 destination words × 4 trigrams = 80 codes</div>
 
 <div class="legend">
-  <div class="legend-item"><div class="legend-dot valid"></div> Valid IATA code (43)</div>
-  <div class="legend-item"><div class="legend-dot invalid"></div> Not found (6)</div>
+  <div class="legend-item"><div class="legend-dot valid"></div> Valid IATA code (73)</div>
+  <div class="legend-item"><div class="legend-dot invalid"></div> Not found (7)</div>
 </div>
 
 <div class="stats">
-  <span>43</span> / 49 unique trigrams are valid IATA airport codes (88%)
+  <span>73</span> / 80 trigrams are valid IATA airport codes (91%)
 </div>
 
 <div class="three-col">
@@ -215,6 +215,48 @@ const data = [
     { code: "NOS", valid: true, airport: "Nosara Airport", city: "Nosara", country: "Costa Rica", lat: 9.977, lon: -85.653 },
     { code: "TRO", valid: true, airport: "Tromsø Airport", city: "Tromsø", country: "Norway", lat: 69.683, lon: 18.919 },
     { code: "PHE", valid: false }
+  ]},
+  { word: "INCLINOMETER", page: "Car", solve: "SURAT?", codes: [
+    { code: "INC", valid: true, airport: "Yinchuan Hedong Intl", city: "Yinchuan", country: "China", lat: 38.322, lon: 106.393 },
+    { code: "LIN", valid: true, airport: "Milan Linate Airport", city: "Milan", country: "Italy", lat: 45.449, lon: 9.278 },
+    { code: "OME", valid: true, airport: "Nome Airport", city: "Nome, AK", country: "United States", lat: 64.512, lon: -165.445 },
+    { code: "TER", valid: true, airport: "Lajes Airport", city: "Terceira Island", country: "Portugal (Azores)", lat: 38.762, lon: -27.091 }
+  ]},
+  { word: "MARIMBAPHONE", page: "Car", solve: "MARQUETTE?", codes: [
+    { code: "MAR", valid: true, airport: "La Chinita Intl", city: "Maracaibo", country: "Venezuela", lat: 10.558, lon: -71.728 },
+    { code: "IMB", valid: true, airport: "Imbaimadai Airport", city: "Imbaimadai", country: "Guyana", lat: 5.708, lon: -60.289 },
+    { code: "APH", valid: true, airport: "A.P. Hill AAF", city: "Bowling Green, VA", country: "United States", lat: 38.069, lon: -77.318 },
+    { code: "ONE", valid: true, airport: "Onepusu Airport", city: "Onepusu", country: "Solomon Islands", lat: -9.170, lon: 161.067 }
+  ]},
+  { word: "LACHRYMIFORM", page: "Horse", solve: "CHRISTCHURCH, NZ", codes: [
+    { code: "LAC", valid: true, airport: "Layang-Layang Airport", city: "Swallow Reef", country: "Malaysia", lat: 7.372, lon: 113.844 },
+    { code: "HRY", valid: true, airport: "Henbury Airport", city: "Henbury, NT", country: "Australia", lat: -24.580, lon: 133.236 },
+    { code: "MIF", valid: true, airport: "Roy Hurd Memorial", city: "Monahans, TX", country: "United States", lat: 31.583, lon: -102.908 },
+    { code: "ORM", valid: true, airport: "Sywell Aerodrome", city: "Northampton", country: "United Kingdom", lat: 52.305, lon: -0.793 }
+  ]},
+  { word: "LAEVODUCTION", page: "Horse", solve: "CASTELO BRANCO, PT", codes: [
+    { code: "LAE", valid: true, airport: "Nadzab Airport", city: "Lae", country: "Papua New Guinea", lat: -6.570, lon: 146.726 },
+    { code: "VOD", valid: true, airport: "Vodochody Airport", city: "Vodochody", country: "Czech Republic", lat: 50.216, lon: 14.396 },
+    { code: "UCT", valid: true, airport: "Ukhta Airport", city: "Sosnogorsk", country: "Russia", lat: 63.567, lon: 53.805 },
+    { code: "ION", valid: true, airport: "Impfondo Airport", city: "Impfondo", country: "Republic of the Congo", lat: 1.592, lon: 18.047 }
+  ]},
+  { word: "EXSANGUINOUS", page: "Plane", solve: "MANAUS, BR", codes: [
+    { code: "EXS", valid: false },
+    { code: "ANG", valid: true, airport: "Angoulême Airport", city: "Angoulême", country: "France", lat: 45.729, lon: 0.221 },
+    { code: "UIN", valid: true, airport: "Quincy Regional", city: "Quincy, IL", country: "United States", lat: 39.943, lon: -91.195 },
+    { code: "OUS", valid: true, airport: "Ourinhos Airport", city: "Ourinhos", country: "Brazil", lat: -22.967, lon: -49.912 }
+  ]},
+  { word: "LAMPADEPHORE", page: "Plane", solve: "PUNE, IN", codes: [
+    { code: "LAM", valid: true, airport: "Los Alamos Airport", city: "Los Alamos, NM", country: "United States", lat: 35.880, lon: -106.269 },
+    { code: "PAD", valid: true, airport: "Paderborn Lippstadt", city: "Paderborn", country: "Germany", lat: 51.614, lon: 8.616 },
+    { code: "EPH", valid: true, airport: "Ephrata Municipal", city: "Ephrata, WA", country: "United States", lat: 47.308, lon: -119.516 },
+    { code: "ORE", valid: true, airport: "Orléans Airport", city: "Orléans", country: "France", lat: 47.898, lon: 2.163 }
+  ]},
+  { word: "LIGNIPERDOUS", page: "Plane", solve: "HASIK, OM", codes: [
+    { code: "LIG", valid: true, airport: "Limoges Airport", city: "Limoges", country: "France", lat: 45.862, lon: 1.179 },
+    { code: "NIP", valid: true, airport: "NAS Jacksonville", city: "Jacksonville, FL", country: "United States", lat: 30.236, lon: -81.681 },
+    { code: "ERD", valid: true, airport: "Berdyansk Airport", city: "Berdyansk", country: "Ukraine", lat: 46.815, lon: 36.758 },
+    { code: "OUS", valid: true, airport: "Ourinhos Airport", city: "Ourinhos", country: "Brazil", lat: -22.967, lon: -49.912 }
   ]}
 ];
 
