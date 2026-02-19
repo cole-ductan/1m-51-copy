@@ -252,7 +252,7 @@
 
 **URL:** https://beast.travel/ — confirmed Lone Shark Games production.
 
-**Structure:** 3 trip categories (Car, Horse, Plane) with 13 destination names. Each page has: tagline (cryptic clue indicator), Lords of Vegas game piece carousel (6 colors), and destination cards with puzzle images.
+**Structure:** 3 trip categories (Car, Horse, Plane) with 20 destination names (7 car, 5 horse, 8 plane + more coming). Each page has: tagline (cryptic clue indicator), Lords of Vegas game piece carousel (6 colors), and destination cards with puzzle images.
 
 | Page | Destination | Caption | Solve | Status |
 |------|-------------|---------|-------|--------|
@@ -261,14 +261,21 @@
 | Car | FURFURACEOUS | "Meet us at" | **DAR ES SALAAM?** — "home of peace." Disputed — Hint 9 says "not its translation." | Disputed |
 | Car | HAPAXANTHOUS | "You'll like" | **BAKU, Azerbaijan** — rebus: "city" + "winds" = "City of Winds" = Baku. Multiple independent solvers converged. | Confirmed |
 | Car | HEKISTOTHERM | "Get down to" | **WINNIPEG, Canada** — rebus capital + jets/plains. Capital of Manitoba, Winnipeg Jets, coldest major city. | Probable |
+| Car | INCLINOMETER | "Come to" | Rebus: dice + calendar + S + lips + P + square + L + "of" + Indiana + Shakespeare. Unsolved. | Unsolved |
+| Car | MARIMBAPHONE | "Head off to" | **MARQUETTE, Michigan?** — rebus: crown + sit + E = "Queen City" + "of the" + compass north = "Queen City of the North." Also suggested: Santiago (Philippines), Edinburgh. | Probable |
 | Horse | ABERUNCATORS | "Vacation at" | **OKATO, New Zealand** | Confirmed |
 | Horse | DEAMBULATORY | "Find us in" | **NOVA RUSSAS, Brazil** — cryptic breakdown → W3W coordinates. | Confirmed |
-| Horse | FISSICOSTATE | "Have fun at" | **CESKE BUDEJOVICE, Czechia** — cryptic → W3W. | Confirmed |
+| Horse | FISSICOSTATE | "Have fun at" | **CESKE BUDEJOVICE, Czechia** — cryptic → W3W: towers.decoder.models. | Confirmed |
+| Horse | LACHRYMIFORM | "Now booking" | **CHRISTCHURCH, New Zealand** — cryptic → W3W: driven.hint.improving. | Confirmed |
+| Horse | LAEVODUCTION | "Ride out to" | **CASTELO BRANCO, Portugal** — cryptic → W3W: dusts.enigma.desks. | Confirmed |
 | Plane | ABOUTSLEDGES | "See you at" | **AMBANJA, Madagascar** — GeoGuessr confirmed via Otiv Mandroso bank. | Confirmed |
 | Plane | ABSQUATULATE | "Such fun at" | **SAINT-PIERRE, SPM** — image matched to lighthouse, exact Maps location found. | Confirmed |
 | Plane | ECTYPOGRAPHY | "Come visit" | **KRASNODAR, Russia** — image shows Krasnodar street with Russian signs. | Confirmed |
 | Plane | ELEEMOSYNARY | "Chill at" | **TUCUMAN, Argentina** — Mercedes Sosa Theater. | Confirmed |
 | Plane | EPANOSTROPHE | "Be well at" | **DERBY, Western Australia** — Derby Wharf on Jetty Road. | Confirmed |
+| Plane | EXSANGUINOUS | "You'll love" | **MANAUS, Brazil** — GeoGuessr: near MUSA (Museu da Amazônia). | Confirmed |
+| Plane | LAMPADEPHORE | "Go to" | **PUNE, India** — GeoGuessr: near Ohel David Synagogue. | Confirmed |
+| Plane | LIGNIPERDOUS | "Now enjoy" | **HASIK, Oman** — GeoGuessr: near Natif Waterfalls. Exact GPS match confirmed. | Confirmed |
 
 **Extraction method:** Taglines are cryptic clue indicators. Cryptic clues solve to words → **what3words (W3W) addresses** → locations.
 
