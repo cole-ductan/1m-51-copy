@@ -81,7 +81,7 @@
 | 7 | TAMPA BAY | Sketch | "Angry Lair" → "Mad Den" → Madden 99 → BUCS HOME → Tampa Bay. Competing with DUBAI (coordinates). | Probable |
 | 8 | COPENHAGEN | Pierson | Blender food combos → missing letters spell HAFNIUM CITY → Latin for Copenhagen | Confirmed |
 | 9 | ALGIERS | Airrack | 7 pictures each hide "ERIC." First letters: A-L-G-I-E-R-S / A-L-G-E-R-I-A | Confirmed |
-| 10 | VALENTINE, AZ? | Jim & Monika | Heart hoodie — 8 hearts replace O's in romantic words. Heart-binary method: hearts as 1/0 → decodes to "AZ." Valentine, Arizona is famous for its Valentine's Day postmark (fitting for a couple's gift). Novel theory from [Serious MrBeast Scavenger Hunters](https://discord.gg/KCtjNMJeYv). Not seen in other communities. | Probable |
+| 10 | **MONTREAL?** | Jim & Monika | Heart hoodie uses **MAD Magazine fold-in** mechanism. BeastBot hint: *"positively MAD."* Fold text inward → edge letters spell **MONTREAL CANADA**. Middle words (Joining, Snuggles, Together, Unity) support "folding" theme. Multiple solvers converged independently. Replaces Valentine AZ. | Probable |
 
 ---
 

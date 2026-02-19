@@ -40,7 +40,7 @@
 | 32 | Gift | **TAMPA BAY?** | Sketch — "THE ANGRY LAIR" = Mad Den = Madden → Madden 99 club → BUCS HOME → Tampa Bay | Probable |
 | 33 | Gift | COPENHAGEN | Pierson — Blender food combos → HAFNIUM CITY → Latin for Copenhagen | Confirmed |
 | 34 | Gift | ALGIERS | Airrack — 7 pictures each hide "ERIC." First letters spell A-L-G-I-E-R-S | Confirmed |
-| 35 | Gift | **VALENTINE, AZ?** | Jim & Monika — Heart-binary → "AZ" → Valentine, Arizona (Valentine's Day postmark) | Probable |
+| 35 | Gift | **MONTREAL?** | Jim & Monika — MAD Magazine fold-in (BeastBot: "positively MAD"). Fold text → edge letters = MONTREAL CANADA. Replaces Valentine AZ. | Probable |
 | 36 | Gift Unifier | ??? | Unknown — not the Sudoku (Sudoku is Screen 10). Must connect the 10 gifts somehow. | Unsolved |
 | 37 | YT Short | **QUITO, Ecuador** | "Mirror mirror on the wall" — 5 red items → phonetic: KEY-TOW-HECK-QUID-DOOR = "Quito Ecuador." Multiple independent solvers. | Confirmed |
 | 38 | YT Short | ??? | Chocolate heart — MrBeast + Amaury Gaichon | Unsolved |
