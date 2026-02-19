@@ -47,7 +47,7 @@
   <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> Unconfirmed / Disputed</div>
   <div class="legend-item" style="margin-left:8px;color:#444">|</div>
   <div class="legend-item"><div class="legend-dot" style="background:#888"></div> Stage 1 (dots)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:transparent;border:2px solid #888;box-shadow:0 0 4px #888"></div> beast.travel (rings)</div>
+  <div class="legend-item"><div style="width:10px;height:10px;background:#888;border-radius:1px;border:1px solid rgba(255,255,255,0.3)"></div> beast.travel (squares)</div>
   <div class="filters">
     <label class="toggle"><input type="checkbox" checked id="fConfirmed"> <span style="color:#22c55e">Confirmed</span></label>
     <label class="toggle"><input type="checkbox" checked id="fProbable"> <span style="color:#f59e0b">Probable</span></label>
@@ -192,26 +192,30 @@ function getAllVisible() {
   return locations.filter(passesFilter);
 }
 
-// Build globe — all locations as native points (fully interactive)
+// Build globe — Stage 1 as round cylinders, beast.travel as square towers
 const globe = Globe()
   .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-night.jpg')
   .backgroundImageUrl('https://unpkg.com/three-globe/example/img/night-sky.png')
-  .pointsData(getAllVisible())
+  // Stage 1: cylindrical dots
+  .pointsData(getStage1())
   .pointLat('lat')
   .pointLng('lng')
   .pointColor(d => colors[d.confidence] || '#888')
-  .pointRadius(d => d.category === 'beast-travel' ? 0.4 : 0.5)
+  .pointRadius(0.5)
   .pointAltitude(0.01)
   .pointLabel(makeLabel)
-  // beast.travel: rings around points for visual distinction
-  .ringsData(getBeastTravel())
-  .ringLat('lat')
-  .ringLng('lng')
-  .ringColor(d => () => colors[d.confidence] || '#888')
-  .ringMaxRadius(1.2)
-  .ringPropagationSpeed(0.8)
-  .ringRepeatPeriod(2000)
-  .ringAltitude(0.01)
+  // beast.travel: square towers
+  .objectsData(getBeastTravel())
+  .objectLat('lat')
+  .objectLng('lng')
+  .objectAltitude(0.005)
+  .objectThreeObject(d => {
+    const col = new THREE.Color(colors[d.confidence] || '#888');
+    const geo = new THREE.BoxGeometry(0.7, 0.7, 2.5);
+    const mat = new THREE.MeshLambertMaterial({ color: col, transparent: true, opacity: 0.85 });
+    return new THREE.Mesh(geo, mat);
+  })
+  .objectLabel(makeLabel)
   (document.getElementById('globe'));
 
 // Adjust camera
@@ -247,8 +251,8 @@ function updateStats() {
 }
 
 function refresh() {
-  globe.pointsData(getAllVisible());
-  globe.ringsData(getBeastTravel());
+  globe.pointsData(getStage1());
+  globe.objectsData(getBeastTravel());
   updateStats();
 }
 
