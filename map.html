@@ -33,7 +33,7 @@
 
 <div class="header">
   <h1>MrBeast Million Dollar Puzzle — Location Map</h1>
-  <div class="sub">Color = confidence. Circle = Stage 1, 🚗🐴✈️ = beast.travel. Click markers for details. Feedback? <a href="https://discord.gg/KCtjNMJeYv" style="color:#88f">discord.gg/KCtjNMJeYv</a></div>
+  <div class="sub">Color = confidence. Circle = Stage 1, 🚗🐴✈️ = beast.travel. Click markers for details.</div>
 </div>
 <div class="stats" id="stats"></div>
 <div id="map"></div>
@@ -82,17 +82,20 @@ Ascension Island,UK,-7.9467,-14.3559,lonesharksocial,confirmed,Facebook/BGG,BGG 
 Eyjafjallajökull,Iceland,63.63,-19.62,crossword,confirmed,Crossword circled cells,16 circled cells anagram
 Yellowknife,Canada,62.454,-114.3718,salesforce,confirmed,BTS Puzzle Maker,Omega confirmed
 Casablanca,Morocco,33.5731,-7.5898,salesforce,confirmed,Slack emoji,CA-SA-BL-AN-CA
-Komi Republic,Russia,65.0284,54.8023,screen-bank,probable,Screen 4 + Withdrawal slip,Coordinates from routing number
+Lower Hutt,New Zealand,-41.2127,174.8997,screen-bank,probable,Screen 4 + Withdrawal slip,T9 decode of routing number → LOWER HUTT
 Tbilisi,Georgia,41.7151,44.8271,screen-bank,probable,Screen 6 + Bird/Coffee,Bird cipher DINAMO + Georgia
 Cebu,Philippines,10.3157,123.8854,screen-bank,probable,Screen 7 + IPESIT/Pirate,CEBU phonetic
 Lincoln,USA,40.8136,-96.7026,screen-bank,probable,Screen 11 + Penny jar,Penny weight = latitude
 Moscow,Russia,55.7558,37.6173,screen-bank,probable,Screen 12 + Rubiks Cube,Red + Cube = Red Square
-Tashkent,Uzbekistan,41.2995,69.2401,commercial,probable,Marked bills / Cash Pile,CASH TENT
+Tashkent,Uzbekistan,41.2995,69.2401,commercial,confirmed,Marked bills / Cash Pile,Spoonerism: Cash Tent → Tash Kent → TASHKENT
 New Orleans,USA,29.9511,-90.0715,commercial,probable,Tank numbers + I scream,New Orleans ice cream
 Tampa Bay,USA,27.9506,-82.4572,gift,probable,Sketch gift,Madden 99 → BUCS
-Valentine,USA,35.3853,-113.6603,gift,probable,Jim & Monika hearts,Valentine AZ postmark
-Benin,Benin,6.3703,2.3912,screen-bank,unconfirmed,Screen 1 + Magazine,Marc Benioff → mark BENI off
+Montreal,Canada,45.5017,-73.5673,gift,probable,Jim & Monika hearts,MAD Magazine fold-in → MONTREAL CANADA
+Benin City,Nigeria,6.3350,5.6037,screen-bank,unconfirmed,Screen 1 + Magazine,Marc Benioff → mark BENI off. Recade staff (backwards J) → Kingdom of Benin → Benin City
 Basel,Switzerland,47.5596,7.5886,screen-bank,unconfirmed,Screen 10 + Sudoku,Euler birthplace
+Granada,Spain,37.1773,-3.5986,commercial,unconfirmed,Smoke grenade,GRENADE → GRANADA (Spanish etymology). BeastBot: take literally + 4 parts
+Dimtu,Ethiopia,6.9319,38.1278,salesforce,probable,Billboard numbers,04 09 13 20 21 → A1Z26 = DIMTU
+Nome,USA,64.5011,-165.4064,salesforce,probable,Billboard letters,Read underline right-to-left = NOME
 Ambanja,Madagascar,-13.6847,48.4497,beast-travel,confirmed,Plane: ABOUTSLEDGES,Otiv Mandroso bank
 Saint-Pierre,Saint Pierre and Miquelon,46.7811,-56.1764,beast-travel,confirmed,Plane: ABSQUATULATE,Lighthouse matched
 Krasnodar,Russia,45.0355,38.9753,beast-travel,confirmed,Plane: ECTYPOGRAPHY,Russian street signs
@@ -116,7 +119,8 @@ Christchurch,New Zealand,-43.5321,172.6362,beast-travel,confirmed,Horse: LACHRYM
 Castelo Branco,Portugal,39.8223,-7.4931,beast-travel,confirmed,Horse: LAEVODUCTION,Cryptic → W3W: dusts.enigma.desks
 Manaus,Brazil,-3.1190,-60.0217,beast-travel,confirmed,Plane: EXSANGUINOUS,GeoGuessr near MUSA museum
 Pune,India,18.5196,73.8553,beast-travel,confirmed,Plane: LAMPADEPHORE,GeoGuessr near Ohel David Synagogue
-Hasik,Oman,17.4756,55.2296,beast-travel,confirmed,Plane: LIGNIPERDOUS,GeoGuessr near Natif Waterfalls`;
+Hasik,Oman,17.4756,55.2296,beast-travel,confirmed,Plane: LIGNIPERDOUS,GeoGuessr near Natif Waterfalls
+Iturup,Russia,45.1567,147.9164,salesforce,probable,Submarine Math (BTS),Sub count + grid → ASCII = ITURUP`;
 
 function parseCSV(csv) {
   const lines = csv.trim().split('\n');
