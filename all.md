@@ -1,6 +1,6 @@
 # 51 Locations — All in One
 
-**26 confirmed, 14 probable, 2 unconfirmed = 42 with answers, ~9 unknown** | *Feb 19, 2026 ~10:00 AM PST*
+**27 confirmed, 13 probable, 2 unconfirmed = 42 with answers, ~9 unknown** | *Feb 19, 2026 ~10:00 AM PST*
 
 **Feedback?** [discord.gg/KCtjNMJeYv](https://discord.gg/KCtjNMJeYv)
 
@@ -25,7 +25,7 @@
 | 17 | Commercial | KUPANG | Clipboard overlay → "Capital of East Nusa Tenggara" | Confirmed |
 | 18 | Commercial | LAHORE | Periodic dots overlap → atomic numbers → periodic table → LA HO RE | Confirmed |
 | 19 | Commercial | LIMA | Belt wire colors 12-7-13-1 = L-I-M-A | Confirmed |
-| 20 | Commercial | **TASHKENT?** | Marked bills → A1Z26 = "CASH TENT." BeastBot: "underscored numbers" — may be incomplete. | Probable |
+| 20 | Commercial | TASHKENT | Marked bills → "CASH TENT." BeastBot clue = Reverend Spooner (spoonerisms). "Cash Tent" → "Tash Kent" → **TASHKENT**. | Confirmed |
 | 21 | Commercial | TALLINN | Subtitles hyphens → "Seven Letter Big Lodge" → tall inn | Confirmed |
 | 22 | Commercial | **NEW ORLEANS?** | Tank numbers + "I scream" / ice cream video | Probable |
 | 23 | Commercial | **GRANADA?** | Smoke grenade. BeastBot: "Grenades demand to be taken literally" + "SMOKE is just a type, the other letters matter" + "4 parts." GRENADE → GRANADA (Spanish: grenade = granada = pomegranate). | Unconfirmed |

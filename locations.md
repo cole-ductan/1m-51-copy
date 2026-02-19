@@ -2,7 +2,7 @@
 
 **Source:** Hint #6 (Feb 14) confirmed exactly 51 location-yielding puzzles across 9 categories.
 
-**Status:** 26 confirmed, 14 probable, 2 unconfirmed = 42 with answers, ~9 unsolved.
+**Status:** 27 confirmed, 13 probable, 2 unconfirmed = 42 with answers, ~9 unsolved.
 
 **Last updated:** Feb 19, 2026 ~10:00 AM PST
 
@@ -57,7 +57,7 @@
 | KUPANG | Clipboard overlay | Overlay BTS checklist with video frame → "Capital of East Nusa Tenggara" | Confirmed |
 | LAHORE | Periodic dots overlap | Two dot patterns overlaid → row lengths → atomic numbers → periodic table → LA HO RE PA K I S TA N | Confirmed |
 | LIMA | Belt wire colors | Color code 12-7-13-1 = L-I-M-A | Confirmed |
-| TASHKENT? | Marked bills / Cash Pile | Red-rimmed bills sum → A1Z26 = "CASH TENT" → Tashkent. BeastBot: "numbers are underscored" — may be incomplete. | Probable |
+| TASHKENT | Marked bills / Cash Pile | Red-rimmed bills → "CASH TENT." BeastBot clue references a reverend = **Reverend Spooner** (spoonerisms). Spoonerism of "Cash Tent" → "Tash Kent" → **TASHKENT**. Confirmed via BeastBot. | Confirmed |
 | TALLINN | Subtitles / transcript | Hyphens adjacent to letters spell "Seven Letter Big Lodge" → "big lodge" = "tall inn" = TALLINN | Confirmed |
 | NEW ORLEANS? | Tank numbers + "I scream" | Tank numbers match receipt from MrBeast "$100K Ice Cream" video. Ice cream type is from New Orleans. | Probable |
 | GRANADA? | Smoke grenade | BeastBot: "Grenades demand to be taken literally" + "SMOKE is just a type of grenade, but the other letters matter" + "this answer has four parts." GRENADE → GRANADA (Spanish etymology — grenade comes from "granada" = pomegranate). ∫+1=? on the grenade may mean "core word + 1 letter change." "4 parts" clue suggests more complexity. Competing: St. Louis, Granada Nicaragua. | Unconfirmed |
