@@ -8,6 +8,7 @@
 - [Sudoku PDF Solver](sudoku-solver.html) — Drop PDFs to auto-extract and solve
 - [1,000+ Sudoku Puzzles](https://delfinadap.github.io/onemil-sudoku/) — Collected from onemil.xyz with fingerprint mappings
 - [Sudoku / onemil.xyz Intel](sudoku.md) — How the sudoku puzzle system works
+- [Crossword — Complete Grid](crossword.html) — Interactive 25×25 crossword, all 188 answers locked
 - [Community Groups](communities.md) — Discord, Slack, and Reddit groups
 
 ---
