@@ -60,7 +60,7 @@
 | TASHKENT | Marked bills / Cash Pile | Red-rimmed bills → "CASH TENT." BeastBot references Reverend Spooner. Spoonerism of "Cash Tent" → "Tash Kent" → **TASHKENT**. | Confirmed |
 | TALLINN | Subtitles / transcript | Hyphens adjacent to letters spell "Seven Letter Big Lodge" → "big lodge" = "tall inn" = TALLINN | Confirmed |
 | NEW ORLEANS? | Tank numbers + "I scream" | Tank numbers match receipt from MrBeast "$100K Ice Cream" video. Banana foster originates from New Orleans. | Unconfirmed |
-| **YELLOWSTONE?** | Smoke grenade | BeastBot: "Grenades demand to be taken literally" + "SMOKE is just a type, the other letters matter" + "4 parts." + "We don't just color text on grenades randomly." Text "1+1=?" is in YELLOW. **YELLOW** + **S** + **T** + **ONE** = **YELLOWSTONE**. Community convergence. Weakness: Yellowstone is a park, not a city. | Unconfirmed |
+| **YELLOWSTONE** | Smoke grenade | BeastBot: "Grenades demand to be taken literally" + "SMOKE is just a type, the other letters matter" + "4 parts." + "We don't just color text on grenades randomly." Text "1+1=?" is in YELLOW. **YELLOW** + **S** + **T** + **ONE** = **YELLOWSTONE**. Community convergence. Cross-confirmed by boat grid row 83 (only 11-letter word, Gold-Boat=E ✓). | Probable |
 | ??? | Camel/llama | BeastBot confirms, points to Saudi Arabia/BEASTLAND. No location extracted. | Unsolved |
 | ??? | *Unidentified* | 12th commercial puzzle not yet found. | Unsolved |
 

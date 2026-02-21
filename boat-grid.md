@@ -131,7 +131,7 @@ Format: City, Country (or State/Province for US/Canada). Vehicle icon replaces o
 | 80 | 6+5 | Red-Horse | **H** | Curicó, Chile | Probable |
 | 81 | 10+7 | Red-Plane | **O** | Cochabamba, Bolivia | Confirmed |
 | 82 | 5+3+7 | Yellow-Horse | **W** | Ōkato, New Zealand | Confirmed |
-| 83 | 11 | Gold-Boat | **E** | Yellowstone | Unconfirmed |
+| 83 | 11 | Gold-Boat | **E** | Yellowstone | Probable |
 | 84 | 6+4 | Blue-Horse | **D** | Sokodé, Togo | Confirmed |
 | 85 | 5+5 | Brown-Boat | **A** | Accra, Ghana | Confirmed |
 | 86 | 12+10 | Purple-Boat | **T** | ??? | Unknown |
