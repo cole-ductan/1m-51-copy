@@ -3,6 +3,7 @@
 - [51 Locations — Master Tracker](locations.md) — Full breakdown by category with decode methods
 - [51 Locations — Summary](all.md) — One-table overview of all 51 slots
 - [beast.travel — Stage 2](beast-travel.md) — 41 destinations + boat page cipher decoded
+- [Boat Grid — 91 Rows](boat-grid.md) — Every row mapped: locations, cipher letters, conflicts, and the decoded message
 - [Location Map](map.html) — Interactive map of all locations, color-coded by confidence
 - [3D Globe](globe.html) — Interactive 3D globe view of all locations
 - [IATA Airport Code Grid](iata-grid.html) — Destination words split into real airport codes
