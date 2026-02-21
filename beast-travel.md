@@ -6,7 +6,7 @@
 
 **Hint 11:** "Those trips by car can be challenging to narrow down. You should take them literally. When you get a city nickname, you don't need any extra words or inferences. Just find a place that uses that exact nickname."
 
-**Status:** 28 confirmed, 9 probable, 4 unconfirmed = 41 destinations + boat page (91-row grid, cipher decoded) | *Feb 21, 2026*
+**Status:** 28 confirmed, 8 probable, 5 unconfirmed = 41 destinations + boat page (91-row grid, cipher decoded) | *Feb 21, 2026*
 
 ---
 
@@ -26,17 +26,17 @@
 |-------------|---------|-----------------|-------|--------|
 | BARODYNAMICS | "Join us at" | "Oil City" | **CASPER, Wyoming** — "The Oil City." Hint 11: take literally. | Probable |
 | EBULLIOSCOPE | "See lovely" | "City of 33 Churches" | **ARZAMAS, Russia** — image shows ~33 Orthodox churches. | Probable |
-| FURFURACEOUS | "Meet us at" | "Home of Peace" | **MAIDUGURI, Nigeria** — Borno State's official nickname, on every license plate. Dar es Salaam ruled out (Hint 11: "not its translation"). | Unconfirmed |
+| FURFURACEOUS | "Meet us at" | "Home of Peace" | **MAIDUGURI, Nigeria** — Borno State's official nickname, on every license plate. Dar es Salaam ruled out (Hint 11: "not its translation"). ⚠️ Grid conflict: 9+7 fits no car row. | Unconfirmed |
 | HAPAXANTHOUS | "You'll like" | "City of Winds" | **BAKU, Azerbaijan** — multiple solvers converged. | Confirmed |
-| HEKISTOTHERM | "Get down to" | "Capital of ___" + jets/plains | **WINNIPEG, Canada** — Capital of Manitoba, Winnipeg Jets. Alt: Fort Morgan, CO ("Capital of the Plains"). | Probable |
+| HEKISTOTHERM | "Get down to" | "Capital of ___" + jets/plains | **WINNIPEG, Canada?** — Capital of Manitoba, Winnipeg Jets. Alt: Fort Morgan, CO ("Capital of the Plains"). ⚠️ Grid conflict: Winnipeg (8+8 or 8+6) fits no car row. City likely wrong. | Unconfirmed |
 | INCLINOMETER | "Come to" | "Diamond City of India" | **SURAT, India** — processes 90% of world's diamonds. | Confirmed |
 | MARIMBAPHONE | "Head off to" | "Queen City of the North" | **MARQUETTE, MI** — official nickname. | Probable |
 | NEBULOPHOBIA | "Return to" | "Gateway to Death Valley" | **BEATTY, Nevada**.| Confirmed |
 | OCHROLEUCOUS | "Drop in on" | "Pearl of the North" (Arabic) | **MOSUL, Iraq** — only Arabic-speaking "Pearl of the North." | Confirmed |
 | RECEPTACULAR | "Stay at" | "City of Roses" + "City of Ruins" | **VISBY, Sweden** — Gotland island. | Confirmed |
 | RISORGIMENTO | "Take in" | "City on Two Continents" | **ISTANBUL, Turkey**.| Probable |
-| SALAMANDROID | "Stop off at" | "Lady of the Sea" | **NANTUCKET, MA** — "The Little Grey Lady of the Sea." | Unconfirmed |
-| SCAPULOMANCY | "Relax at" | "Island of ___" (partial) | **POVEGLIA, Italy** — "Island of Death." | Unconfirmed |
+| SALAMANDROID | "Stop off at" | "Lady of the Sea" | **NANTUCKET, MA?** — "The Little Grey Lady of the Sea." ⚠️ Grid conflict: 9+13 fits no car row. Row 7 (5+5) needs this puzzle — Genoa Italy fits grid but not nickname. | Unconfirmed |
+| SCAPULOMANCY | "Relax at" | "Island of ___" (partial) | **POVEGLIA, Italy?** — "Island of Death." ⚠️ Grid conflict: 8+5 fits no car row. | Unconfirmed |
 | THEANTHROPIC | "Encounter" | "Motherland of Cherry" | **GIRESUN, Turkey** — official city website: "Motherland of Cherry." Ancient name Kerasus = root of "cherry." | Probable |
 | ULTRAMONTANE | "Hop over to" | "Valley of the Rouge" | **L'ASCENSION, Quebec** — known as "La Vallée de la Rouge." CanCon = Canadian Content. | Unconfirmed |
 
@@ -70,10 +70,10 @@
 | ABSQUATULATE | "Such fun at" | **SAINT-PIERRE, SPM** | Confirmed |
 | ECTYPOGRAPHY | "Come visit" | **KRASNODAR, Russia** | Confirmed |
 | ELEEMOSYNARY | "Chill at" | **TUCUMÁN, Argentina** | Confirmed |
-| EPANASTROPHE | "Be well at" | **DERBY, Western Australia** | Confirmed |
+| EPANASTROPHE | "Be well at" | **DERBY, Western Australia** — ⚠️ Format conflict: 5+9 or 5+7+9 fits no open plane row. | Confirmed |
 | EXSANGUINOUS | "You'll love" | **MANAUS, Brazil** | Confirmed |
 | LAMPADEPHORE | "Go to" | **PUNE, India** | Confirmed |
-| LIGNIPERDOUS | "Now enjoy" | **HASIK, Oman** | Confirmed |
+| LIGNIPERDOUS | "Now enjoy" | **HASIK, Oman** — ⚠️ Format conflict: 5+4 fits no open plane row. | Confirmed |
 | MACHAIRODONT | NEW | **VELINGRAD, Bulgaria**.| Confirmed |
 | NARRISCHKEIT | NEW | **MARRAKESH, Morocco** — YSL Museum. | Confirmed |
 | ODORIVECTORS | NEW | **ORLANDO, Florida** — Airport entrance. | Confirmed |
@@ -81,7 +81,7 @@
 | SERPENTICIDE | NEW | **EDMONTON, Canada** — Muttart Conservatory. | Confirmed |
 | SNALLYGASTER | NEW | **VLADIVOSTOK, Russia** — Golden Horn Bay. | Confirmed |
 | TERAMORPHOUS | NEW | **COCHABAMBA, Bolivia** — Christ of the Concord. | Confirmed |
-| WINTERBOURNE | NEW | **TACURONG, Philippines** — Talakudong Rotunda. | Confirmed |
+| WINTERBOURNE | NEW | **TACURONG, Philippines** — Talakudong Rotunda. ⚠️ Format conflict: 8+11 doesn't match row 64 (8+3+11). | Confirmed |
 | ??? | ??? | 2 more undiscovered | Undiscovered |
 
 ---
@@ -132,6 +132,8 @@ Reading the cipher letter from each row in order spells:
 - **Tampa Bay (not Tampa):** "TAMPA BAY FLORIDA" (5+3+7) fits row 63 — Silver-Boat at pos 12 of FLORIDA = R. ✓ Previously assumed "TAMPA FLORIDA" (5+7) at row 17, which conflicted with cipher (Green-Boat=S ≠ T).
 - **Benin City conflict:** Row 75 (5+4+7) requires R at pos 8, but BENIN CITY NIGERIA gives T. Location may be wrong.
 - **Babylon no-fit:** No 7+4 pattern exists anywhere on the grid. BABYLON IRAQ has no home.
+- **4 car cities don't fit:** Maiduguri (9+7), Winnipeg (8+8), Nantucket (9+13), Poveglia (8+5) match no car row. 4 car rows remain open: Row 6 (7, M@1), Row 7 (5+5, Y@10), Row 32 (5+9, M@1), Row 37 (4+7, U@2).
+- **3 plane format issues:** Derby (5+9), Hasik (5+4), Tacurong (8+11) don't match open plane rows 14 (5+10+4), 38 (5+5+9), 64 (8+3+11). GeoGuessr locations confirmed but beast.travel name format uncertain.
 
 ---
 
