@@ -62,7 +62,7 @@ Format: City, Country (or State/Province for US/Canada). Vehicle icon replaces o
 | 11 | 7+6 | Yellow-Car | **U** | Giresun, Turkey | Probable |
 | 12 | 3+6+2+7+9 | Purple-Plane | **L** | San Miguel de Tucumán, Argentina | Confirmed |
 | 13 | 5+4+3+7 | Purple-Boat | **T** | Upper Hutt, New Zealand | Probable |
-| 14 | 5+10+4 | Black-Plane | **F** | ??? | Unknown |
+| 14 | 5+10+4 | Black-Plane | **F** | Natif Waterfalls, Oman | Unconfirmed |
 | 15 | 4+10 | Red-Car | **I** | Baku, Azerbaijan | Confirmed |
 | 16 | 7+7 | Silver-Boat | **R** | ??? | Unknown |
 | 17 | 5+7 | Green-Boat | **S** | Sucre, Bolivia | Unconfirmed |
