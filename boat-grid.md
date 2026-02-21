@@ -77,7 +77,7 @@ Format: City, Country (or State/Province for US/Canada). Vehicle icon replaces o
 | 26 | 11+6 | Blue-Car | **C** | L'Ascension, Quebec | Probable |
 | 27 | 7+6 | Black-Horse | **K** | Antalya, Turkey | Probable |
 | 28 | 5+5+5 | Green-Boat | **S** | Seoul, South Korea | Confirmed |
-| 29 | 5+6 | Silver-Boat | **R** | ??? | Unknown |
+| 29 | 5+6 | Silver-Boat | **R** | Heard Island | Confirmed |
 | 30 | 9+6 | Red-Plane | **O** | Krasnodar, Russia | Confirmed |
 | 31 | 16+7 | Brown-Boat | **A** | Eyjafjallajökull, Iceland | Confirmed |
 | 32 | 5+9 | Purple-Car | **M** | ??? | Unknown |
