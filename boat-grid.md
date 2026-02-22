@@ -64,7 +64,7 @@ Format: City, Country (or State/Province for US/Canada). Vehicle icon replaces o
 | 13 | 5+4+3+7 | Purple-Boat | **T** | Upper Hutt, New Zealand | Probable |
 | 14 | 5+10+4 | Black-Plane | **F** | Natif Waterfalls, Oman | Unconfirmed |
 | 15 | 4+10 | Red-Car | **I** | Baku, Azerbaijan | Confirmed |
-| 16 | 7+7 | Silver-Boat | **R** | ??? | Unknown |
+| 16 | 7+7 | Silver-Boat | **R** | Windsor, Ontario | Unconfirmed |
 | 17 | 5+7 | Green-Boat | **S** | Sucre, Bolivia | Unconfirmed |
 | 18 | 5+5 | Purple-Boat | **T** | Cairo, Egypt | Confirmed |
 | 19 | 4+5 | Yellow-Plane | **P** | Pune, India | Confirmed |
@@ -134,7 +134,7 @@ Format: City, Country (or State/Province for US/Canada). Vehicle icon replaces o
 | 83 | 11 | Gold-Boat | **E** | Yellowstone | Probable |
 | 84 | 6+4 | Blue-Horse | **D** | Sokodé, Togo | Confirmed |
 | 85 | 5+5 | Brown-Boat | **A** | Accra, Ghana | Confirmed |
-| 86 | 12+10 | Purple-Boat | **T** | ??? | Unknown |
+| 86 | 12+10 | Purple-Boat | **T** | Antananarivo, Madagascar | Probable |
 | 87 | 8+10 | Green-Boat | **S** | Tashkent, Uzbekistan | Confirmed |
 | 88 | 5+8 | Purple-Boat | **T** | Dimtu, Ethiopia | Confirmed |
 | 89 | 7+6 | Brown-Boat | **A** | Tijuana, Mexico | Confirmed |
